@@ -1,0 +1,22 @@
+//
+// Prefix header for all source files of the 'VitMobile' target in the 'VitMobile' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define BCTABBAR_WIDTH 20.
+#define BCTABBAR_TEXTFONT 13.0
+
+#ifdef DEBUG
+#define debug_NSLog(format, ...) NSLog(format, ## __VA_ARGS__)
+#else
+#define debug_NSLog(format, ...)
+#endif

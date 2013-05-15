@@ -58,6 +58,174 @@
 		9324A4361740D8B4002BEC14 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9324A41C1740D8B4002BEC14 /* CXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9324A4371740D8B4002BEC14 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9324A41C1740D8B4002BEC14 /* CXMLNode.m */; };
 		9324A4391740D9FF002BEC14 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9324A4381740D9FF002BEC14 /* libxml2.dylib */; };
+		933C809C174226ED006D4C18 /* PTMenuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 933C809B174226ED006D4C18 /* PTMenuConfig.m */; };
+		933C809D174226ED006D4C18 /* PTMenuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 933C809B174226ED006D4C18 /* PTMenuConfig.m */; };
+		93AB35471742211B0056A086 /* CommonMenu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 93AB35461742211B0056A086 /* CommonMenu.xml */; };
+		93AB35481742211B0056A086 /* CommonMenu.xml in Resources */ = {isa = PBXBuildFile; fileRef = 93AB35461742211B0056A086 /* CommonMenu.xml */; };
+		93AF32FF174336C000059CD8 /* libVitMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AF32FD174336B400059CD8 /* libVitMobile.a */; };
+		93AF33021743375C00059CD8 /* PTGridMenuUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF33011743375C00059CD8 /* PTGridMenuUI.m */; };
+		93AF3305174339E000059CD8 /* SessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF3304174339E000059CD8 /* SessionManager.m */; };
+		93AF3308174346EF00059CD8 /* MenuNavigate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF3307174346EF00059CD8 /* MenuNavigate.m */; };
+		93AF330A1743515B00059CD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93AF33091743515B00059CD8 /* QuartzCore.framework */; };
+		93AF33AF1743559300059CD8 /* a000000.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33101743559300059CD8 /* a000000.png */; };
+		93AF33B01743559300059CD8 /* account_mgr.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33111743559300059CD8 /* account_mgr.png */; };
+		93AF33B11743559300059CD8 /* alerts_service.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33121743559300059CD8 /* alerts_service.png */; };
+		93AF33B21743559300059CD8 /* amortization_trade.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33131743559300059CD8 /* amortization_trade.png */; };
+		93AF33B31743559300059CD8 /* amortization_trade1.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33141743559300059CD8 /* amortization_trade1.png */; };
+		93AF33B41743559300059CD8 /* appointment_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33151743559300059CD8 /* appointment_v2.png */; };
+		93AF33B51743559300059CD8 /* atm_query.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33161743559300059CD8 /* atm_query.png */; };
+		93AF33B61743559300059CD8 /* bangzhuzhongxin.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33171743559300059CD8 /* bangzhuzhongxin.png */; };
+		93AF33B71743559300059CD8 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33181743559300059CD8 /* bg.png */; };
+		93AF33B81743559300059CD8 /* branch_query.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33191743559300059CD8 /* branch_query.png */; };
+		93AF33B91743559300059CD8 /* branches.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF331A1743559300059CD8 /* branches.png */; };
+		93AF33BA1743559300059CD8 /* caipiaotaocan.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF331B1743559300059CD8 /* caipiaotaocan.png */; };
+		93AF33BB1743559300059CD8 /* caipiaotouzhu.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF331C1743559300059CD8 /* caipiaotouzhu.png */; };
+		93AF33BC1743559300059CD8 /* card_mgr.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF331D1743559300059CD8 /* card_mgr.png */; };
+		93AF33BD1743559300059CD8 /* chongzhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF331E1743559300059CD8 /* chongzhi.png */; };
+		93AF33BE1743559300059CD8 /* chuxingyi.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF331F1743559300059CD8 /* chuxingyi.png */; };
+		93AF33BF1743559300059CD8 /* chuxingyi0.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33201743559300059CD8 /* chuxingyi0.png */; };
+		93AF33C01743559300059CD8 /* cmb_announcement.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33211743559300059CD8 /* cmb_announcement.png */; };
+		93AF33C11743559300059CD8 /* cmb_news.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33221743559300059CD8 /* cmb_news.png */; };
+		93AF33C21743559300059CD8 /* cmb_stock_price.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33231743559300059CD8 /* cmb_stock_price.png */; };
+		93AF33C31743559300059CD8 /* cmblot1_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33241743559300059CD8 /* cmblot1_v2.png */; };
+		93AF33C41743559300059CD8 /* cmbstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33251743559300059CD8 /* cmbstore.png */; };
+		93AF33C51743559300059CD8 /* creditcard_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33261743559300059CD8 /* creditcard_bg.png */; };
+		93AF33C61743559300059CD8 /* creditcard_open.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33271743559300059CD8 /* creditcard_open.png */; };
+		93AF33C71743559300059CD8 /* creditcard_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33281743559300059CD8 /* creditcard_unselected.png */; };
+		93AF33C81743559300059CD8 /* creditcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33291743559300059CD8 /* creditcard.png */; };
+		93AF33C91743559300059CD8 /* customer_service.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF332A1743559300059CD8 /* customer_service.png */; };
+		93AF33CA1743559300059CD8 /* dcode.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF332B1743559300059CD8 /* dcode.png */; };
+		93AF33CB1743559300059CD8 /* debitcard_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF332C1743559300059CD8 /* debitcard_bg.png */; };
+		93AF33CC1743559300059CD8 /* debitcard_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF332D1743559300059CD8 /* debitcard_unselected.png */; };
+		93AF33CD1743559300059CD8 /* debitcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF332E1743559300059CD8 /* debitcard.png */; };
+		93AF33CE1743559300059CD8 /* default1.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF332F1743559300059CD8 /* default1.png */; };
+		93AF33CF1743559300059CD8 /* default2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33301743559300059CD8 /* default2.png */; };
+		93AF33D01743559300059CD8 /* default3.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33311743559300059CD8 /* default3.png */; };
+		93AF33D11743559300059CD8 /* default4.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33321743559300059CD8 /* default4.png */; };
+		93AF33D21743559300059CD8 /* deposit_calc.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33331743559300059CD8 /* deposit_calc.png */; };
+		93AF33D31743559300059CD8 /* deposit_rates.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33341743559300059CD8 /* deposit_rates.png */; };
+		93AF33D41743559300059CD8 /* err.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33351743559300059CD8 /* err.png */; };
+		93AF33D51743559300059CD8 /* expenses_standard.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33361743559300059CD8 /* expenses_standard.png */; };
+		93AF33D61743559300059CD8 /* favorite_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33371743559300059CD8 /* favorite_add.png */; };
+		93AF33D71743559300059CD8 /* favorite_bg.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33381743559300059CD8 /* favorite_bg.9.png */; };
+		93AF33D81743559300059CD8 /* favorite_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33391743559300059CD8 /* favorite_delete.png */; };
+		93AF33D91743559300059CD8 /* favorite_done_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF333A1743559300059CD8 /* favorite_done_normal.png */; };
+		93AF33DA1743559300059CD8 /* favorite_done_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF333B1743559300059CD8 /* favorite_done_pressed.png */; };
+		93AF33DB1743559300059CD8 /* favorite_icon_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF333C1743559300059CD8 /* favorite_icon_delete.png */; };
+		93AF33DC1743559300059CD8 /* favorite_item_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF333D1743559300059CD8 /* favorite_item_checked.png */; };
+		93AF33DD1743559300059CD8 /* favorite_navbar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF333E1743559300059CD8 /* favorite_navbar_bg.png */; };
+		93AF33DE1743559300059CD8 /* fenxizhongxin.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF333F1743559300059CD8 /* fenxizhongxin.png */; };
+		93AF33DF1743559300059CD8 /* financial_market.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33401743559300059CD8 /* financial_market.png */; };
+		93AF33E01743559300059CD8 /* financial.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33411743559300059CD8 /* financial.png */; };
+		93AF33E11743559300059CD8 /* financing_calc.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33421743559300059CD8 /* financing_calc.png */; };
+		93AF33E21743559300059CD8 /* financing_product.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33431743559300059CD8 /* financing_product.png */; };
+		93AF33E31743559300059CD8 /* foreign_exchange_calc.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33441743559300059CD8 /* foreign_exchange_calc.png */; };
+		93AF33E41743559300059CD8 /* foreign_exchange_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33451743559300059CD8 /* foreign_exchange_info.png */; };
+		93AF33E51743559300059CD8 /* foreign_exchange_mgr.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33461743559300059CD8 /* foreign_exchange_mgr.png */; };
+		93AF33E61743559300059CD8 /* foreign_exchange_rates.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33471743559300059CD8 /* foreign_exchange_rates.png */; };
+		93AF33E71743559300059CD8 /* fund_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33481743559300059CD8 /* fund_info.png */; };
+		93AF33E81743559300059CD8 /* fundproduct.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33491743559300059CD8 /* fundproduct.png */; };
+		93AF33E91743559300059CD8 /* funds_npv.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF334A1743559300059CD8 /* funds_npv.png */; };
+		93AF33EA1743559300059CD8 /* funguide_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF334B1743559300059CD8 /* funguide_v2.png */; };
+		93AF33EB1743559300059CD8 /* gamecard_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF334C1743559300059CD8 /* gamecard_v2.png */; };
+		93AF33EC1743559300059CD8 /* gamecard.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF334D1743559300059CD8 /* gamecard.png */; };
+		93AF33ED1743559300059CD8 /* gerenzhongxin.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF334E1743559300059CD8 /* gerenzhongxin.png */; };
+		93AF33EE1743559300059CD8 /* gold_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF334F1743559300059CD8 /* gold_info.png */; };
+		93AF33EF1743559300059CD8 /* gold_market.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33501743559300059CD8 /* gold_market.png */; };
+		93AF33F01743559300059CD8 /* hemaidating.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33511743559300059CD8 /* hemaidating.png */; };
+		93AF33F11743559300059CD8 /* homepage.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33521743559300059CD8 /* homepage.png */; };
+		93AF33F21743559300059CD8 /* huacai.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33531743559300059CD8 /* huacai.png */; };
+		93AF33F31743559300059CD8 /* icon_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33541743559300059CD8 /* icon_delete.png */; };
+		93AF33F41743559300059CD8 /* icon_financialtool_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33551743559300059CD8 /* icon_financialtool_normal.png */; };
+		93AF33F51743559300059CD8 /* icon_financialtool_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33561743559300059CD8 /* icon_financialtool_pressed.png */; };
+		93AF33F61743559300059CD8 /* icon_lifetool_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33571743559300059CD8 /* icon_lifetool_normal.png */; };
+		93AF33F71743559300059CD8 /* icon_lifetool_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33581743559300059CD8 /* icon_lifetool_pressed.png */; };
+		93AF33F81743559300059CD8 /* icon_myfavorite_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33591743559300059CD8 /* icon_myfavorite_normal.png */; };
+		93AF33F91743559300059CD8 /* icon_myfavorite_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF335A1743559300059CD8 /* icon_myfavorite_pressed.png */; };
+		93AF33FA1743559300059CD8 /* icon_phonebank_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF335B1743559300059CD8 /* icon_phonebank_normal.png */; };
+		93AF33FB1743559300059CD8 /* icon_phonebank_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF335C1743559300059CD8 /* icon_phonebank_pressed.png */; };
+		93AF33FC1743559300059CD8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF335D1743559300059CD8 /* icon.png */; };
+		93AF33FD1743559300059CD8 /* iic_menu_close_clear_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF335E1743559300059CD8 /* iic_menu_close_clear_cancel.png */; };
+		93AF33FE1743559300059CD8 /* iic_menu_friendslist.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF335F1743559300059CD8 /* iic_menu_friendslist.png */; };
+		93AF33FF1743559300059CD8 /* iic_menu_help.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33601743559300059CD8 /* iic_menu_help.png */; };
+		93AF34001743559300059CD8 /* iic_menu_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33611743559300059CD8 /* iic_menu_refresh.png */; };
+		93AF34011743559300059CD8 /* info_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33621743559300059CD8 /* info_v2.png */; };
+		93AF34021743559300059CD8 /* instalment_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33631743559300059CD8 /* instalment_v2.png */; };
+		93AF34031743559300059CD8 /* instalment.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33641743559300059CD8 /* instalment.png */; };
+		93AF34041743559300059CD8 /* insurance.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33651743559300059CD8 /* insurance.png */; };
+		93AF34051743559300059CD8 /* invest_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33661743559300059CD8 /* invest_info.png */; };
+		93AF34061743559300059CD8 /* invest_mgr.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33671743559300059CD8 /* invest_mgr.png */; };
+		93AF34071743559300059CD8 /* investproduct.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33681743559300059CD8 /* investproduct.png */; };
+		93AF34081743559300059CD8 /* investproduct2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33691743559300059CD8 /* investproduct2.png */; };
+		93AF34091743559300059CD8 /* jiaoyichaxun.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF336A1743559300059CD8 /* jiaoyichaxun.png */; };
+		93AF340A1743559300059CD8 /* jiehui.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF336B1743559300059CD8 /* jiehui.png */; };
+		93AF340B1743559300059CD8 /* kaijianggonggao.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF336C1743559300059CD8 /* kaijianggonggao.png */; };
+		93AF340C1743559300059CD8 /* lifetool_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF336D1743559300059CD8 /* lifetool_bg.png */; };
+		93AF340D1743559300059CD8 /* list_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF336E1743559300059CD8 /* list_bg.png */; };
+		93AF340E1743559300059CD8 /* list_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF336F1743559300059CD8 /* list_pressed.png */; };
+		93AF340F1743559300059CD8 /* list_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33701743559300059CD8 /* list_selected.png */; };
+		93AF34101743559300059CD8 /* list_separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33711743559300059CD8 /* list_separator.png */; };
+		93AF34111743559300059CD8 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33721743559300059CD8 /* loading.png */; };
+		93AF34121743559300059CD8 /* loan_calc.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33731743559300059CD8 /* loan_calc.png */; };
+		93AF34131743559300059CD8 /* loan_manage.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33741743559300059CD8 /* loan_manage.png */; };
+		93AF34141743559300059CD8 /* loan_rates.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33751743559300059CD8 /* loan_rates.png */; };
+		93AF34151743559300059CD8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33761743559300059CD8 /* logo.png */; };
+		93AF34161743559300059CD8 /* lotcontract_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33771743559300059CD8 /* lotcontract_v2.png */; };
+		93AF34171743559300059CD8 /* lv1menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33781743559300059CD8 /* lv1menu.png */; };
+		93AF34181743559300059CD8 /* mobile_bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33791743559300059CD8 /* mobile_bank.png */; };
+		93AF34191743559300059CD8 /* mobile_keepaccounts.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF337A1743559300059CD8 /* mobile_keepaccounts.png */; };
+		93AF341A1743559300059CD8 /* mortgage.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF337B1743559300059CD8 /* mortgage.png */; };
+		93AF341B1743559300059CD8 /* movie_ticket_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF337C1743559300059CD8 /* movie_ticket_v2.png */; };
+		93AF341C1743559300059CD8 /* movieticket.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF337D1743559300059CD8 /* movieticket.png */; };
+		93AF341D1743559300059CD8 /* myappoint_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF337E1743559300059CD8 /* myappoint_v2.png */; };
+		93AF341E1743559300059CD8 /* mylot_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF337F1743559300059CD8 /* mylot_v2.png */; };
+		93AF341F1743559300059CD8 /* national_debt_price.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33801743559300059CD8 /* national_debt_price.png */; };
+		93AF34201743559300059CD8 /* national_debt_price1.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33811743559300059CD8 /* national_debt_price1.png */; };
+		93AF34211743559300059CD8 /* nationaldebt_calc.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33821743559300059CD8 /* nationaldebt_calc.png */; };
+		93AF34221743559300059CD8 /* netcard_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33831743559300059CD8 /* netcard_unselected.png */; };
+		93AF34231743559300059CD8 /* netcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33841743559300059CD8 /* netcard.png */; };
+		93AF34241743559300059CD8 /* netpay.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33851743559300059CD8 /* netpay.png */; };
+		93AF34251743559300059CD8 /* newbusiness_product.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33861743559300059CD8 /* newbusiness_product.png */; };
+		93AF34261743559300059CD8 /* noble_metal_price.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33871743559300059CD8 /* noble_metal_price.png */; };
+		93AF34271743559300059CD8 /* noble_metal_price1.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33881743559300059CD8 /* noble_metal_price1.png */; };
+		93AF34281743559300059CD8 /* offshore_deposit_rates.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33891743559300059CD8 /* offshore_deposit_rates.png */; };
+		93AF34291743559300059CD8 /* onenet_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF338A1743559300059CD8 /* onenet_bg.png */; };
+		93AF342A1743559300059CD8 /* play_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF338B1743559300059CD8 /* play_v2.png */; };
+		93AF342B1743559300059CD8 /* point_mgr.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF338C1743559300059CD8 /* point_mgr.png */; };
+		93AF342C1743559300059CD8 /* preferential_news.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF338D1743559300059CD8 /* preferential_news.png */; };
+		93AF342D1743559300059CD8 /* preferential_shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF338E1743559300059CD8 /* preferential_shop.png */; };
+		93AF342E1743559300059CD8 /* prefix.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF338F1743559300059CD8 /* prefix.png */; };
+		93AF342F1743559300059CD8 /* productmarket.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33901743559300059CD8 /* productmarket.png */; };
+		93AF34301743559300059CD8 /* relate_creditcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33911743559300059CD8 /* relate_creditcard.png */; };
+		93AF34311743559300059CD8 /* relate_debitcard.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33921743559300059CD8 /* relate_debitcard.png */; };
+		93AF34321743559300059CD8 /* repayment_mgr.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33931743559300059CD8 /* repayment_mgr.png */; };
+		93AF34331743559300059CD8 /* securities_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33941743559300059CD8 /* securities_info.png */; };
+		93AF34341743559300059CD8 /* self_bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33951743559300059CD8 /* self_bank.png */; };
+		93AF34351743559300059CD8 /* self_pay.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33961743559300059CD8 /* self_pay.png */; };
+		93AF34361743559300059CD8 /* self_transfer.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33971743559300059CD8 /* self_transfer.png */; };
+		93AF34371743559300059CD8 /* service_hotline.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33981743559300059CD8 /* service_hotline.png */; };
+		93AF34381743559300059CD8 /* shop_query.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33991743559300059CD8 /* shop_query.png */; };
+		93AF34391743559300059CD8 /* shouhui.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF339A1743559300059CD8 /* shouhui.png */; };
+		93AF343A1743559300059CD8 /* special_service.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF339B1743559300059CD8 /* special_service.png */; };
+		93AF343B1743559300059CD8 /* suffix.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF339C1743559300059CD8 /* suffix.png */; };
+		93AF343C1743559300059CD8 /* super_net.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF339D1743559300059CD8 /* super_net.png */; };
+		93AF343D1743559300059CD8 /* szlot1_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF339E1743559300059CD8 /* szlot1_v2.png */; };
+		93AF343E1743559300059CD8 /* today_analysis.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF339F1743559300059CD8 /* today_analysis.png */; };
+		93AF343F1743559300059CD8 /* today_analysis1.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33A01743559300059CD8 /* today_analysis1.png */; };
+		93AF34401743559300059CD8 /* today_cmb.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33A11743559300059CD8 /* today_cmb.png */; };
+		93AF34411743559300059CD8 /* topbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33A21743559300059CD8 /* topbg.png */; };
+		93AF34421743559300059CD8 /* toplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33A31743559300059CD8 /* toplogo.png */; };
+		93AF34431743559300059CD8 /* transfer.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33A41743559300059CD8 /* transfer.png */; };
+		93AF34441743559300059CD8 /* user_registration.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33A51743559300059CD8 /* user_registration.png */; };
+		93AF34451743559300059CD8 /* userinfo_mgr.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33A61743559300059CD8 /* userinfo_mgr.png */; };
+		93AF34461743559300059CD8 /* vancl_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33A71743559300059CD8 /* vancl_v2.png */; };
+		93AF34471743559300059CD8 /* wangpiao_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33A81743559300059CD8 /* wangpiao_v2.png */; };
+		93AF34481743559300059CD8 /* webbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33A91743559300059CD8 /* webbg.png */; };
+		93AF34491743559300059CD8 /* zhangdanchaxun.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33AA1743559300059CD8 /* zhangdanchaxun.png */; };
+		93AF344A1743559300059CD8 /* zhanghuchaxun.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33AB1743559300059CD8 /* zhanghuchaxun.png */; };
+		93AF344B1743559300059CD8 /* zhifutong_v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33AC1743559300059CD8 /* zhifutong_v2.png */; };
+		93AF344C1743559300059CD8 /* zhifutong.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33AD1743559300059CD8 /* zhifutong.png */; };
+		93AF344D1743559300059CD8 /* zixuntuijian.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF33AE1743559300059CD8 /* zixuntuijian.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +235,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9324A3701740D334002BEC14;
 			remoteInfo = PacteraMBanking;
+		};
+		93AF32FC174336B400059CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93AF32F5174336B400059CD8 /* VitMobile.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 93646EC015C0DA8B00E707D1;
+			remoteInfo = VitMobile;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -130,6 +305,176 @@
 		9324A41C1740D8B4002BEC14 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CXMLNode.m; path = TouchXML/CXMLNode.m; sourceTree = "<group>"; };
 		9324A41D1740D8B4002BEC14 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchXML.h; path = TouchXML/TouchXML.h; sourceTree = "<group>"; };
 		9324A4381740D9FF002BEC14 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		933C809A174226ED006D4C18 /* PTMenuConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTMenuConfig.h; sourceTree = "<group>"; };
+		933C809B174226ED006D4C18 /* PTMenuConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTMenuConfig.m; sourceTree = "<group>"; };
+		93AB35461742211B0056A086 /* CommonMenu.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CommonMenu.xml; sourceTree = "<group>"; };
+		93AF32F5174336B400059CD8 /* VitMobile.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VitMobile.xcodeproj; path = vitlib/VitMobile.xcodeproj; sourceTree = "<group>"; };
+		93AF33001743375C00059CD8 /* PTGridMenuUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTGridMenuUI.h; path = Menu/PTGridMenuUI.h; sourceTree = SOURCE_ROOT; };
+		93AF33011743375C00059CD8 /* PTGridMenuUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTGridMenuUI.m; path = Menu/PTGridMenuUI.m; sourceTree = SOURCE_ROOT; };
+		93AF3303174339E000059CD8 /* SessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		93AF3304174339E000059CD8 /* SessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionManager.m; sourceTree = "<group>"; };
+		93AF3306174346EF00059CD8 /* MenuNavigate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuNavigate.h; sourceTree = "<group>"; };
+		93AF3307174346EF00059CD8 /* MenuNavigate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuNavigate.m; sourceTree = "<group>"; };
+		93AF33091743515B00059CD8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		93AF33101743559300059CD8 /* a000000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a000000.png; path = imgs/a000000.png; sourceTree = "<group>"; };
+		93AF33111743559300059CD8 /* account_mgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = account_mgr.png; path = imgs/account_mgr.png; sourceTree = "<group>"; };
+		93AF33121743559300059CD8 /* alerts_service.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alerts_service.png; path = imgs/alerts_service.png; sourceTree = "<group>"; };
+		93AF33131743559300059CD8 /* amortization_trade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amortization_trade.png; path = imgs/amortization_trade.png; sourceTree = "<group>"; };
+		93AF33141743559300059CD8 /* amortization_trade1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amortization_trade1.png; path = imgs/amortization_trade1.png; sourceTree = "<group>"; };
+		93AF33151743559300059CD8 /* appointment_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appointment_v2.png; path = imgs/appointment_v2.png; sourceTree = "<group>"; };
+		93AF33161743559300059CD8 /* atm_query.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = atm_query.png; path = imgs/atm_query.png; sourceTree = "<group>"; };
+		93AF33171743559300059CD8 /* bangzhuzhongxin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bangzhuzhongxin.png; path = imgs/bangzhuzhongxin.png; sourceTree = "<group>"; };
+		93AF33181743559300059CD8 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = imgs/bg.png; sourceTree = "<group>"; };
+		93AF33191743559300059CD8 /* branch_query.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = branch_query.png; path = imgs/branch_query.png; sourceTree = "<group>"; };
+		93AF331A1743559300059CD8 /* branches.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = branches.png; path = imgs/branches.png; sourceTree = "<group>"; };
+		93AF331B1743559300059CD8 /* caipiaotaocan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = caipiaotaocan.png; path = imgs/caipiaotaocan.png; sourceTree = "<group>"; };
+		93AF331C1743559300059CD8 /* caipiaotouzhu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = caipiaotouzhu.png; path = imgs/caipiaotouzhu.png; sourceTree = "<group>"; };
+		93AF331D1743559300059CD8 /* card_mgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = card_mgr.png; path = imgs/card_mgr.png; sourceTree = "<group>"; };
+		93AF331E1743559300059CD8 /* chongzhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chongzhi.png; path = imgs/chongzhi.png; sourceTree = "<group>"; };
+		93AF331F1743559300059CD8 /* chuxingyi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chuxingyi.png; path = imgs/chuxingyi.png; sourceTree = "<group>"; };
+		93AF33201743559300059CD8 /* chuxingyi0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chuxingyi0.png; path = imgs/chuxingyi0.png; sourceTree = "<group>"; };
+		93AF33211743559300059CD8 /* cmb_announcement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cmb_announcement.png; path = imgs/cmb_announcement.png; sourceTree = "<group>"; };
+		93AF33221743559300059CD8 /* cmb_news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cmb_news.png; path = imgs/cmb_news.png; sourceTree = "<group>"; };
+		93AF33231743559300059CD8 /* cmb_stock_price.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cmb_stock_price.png; path = imgs/cmb_stock_price.png; sourceTree = "<group>"; };
+		93AF33241743559300059CD8 /* cmblot1_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cmblot1_v2.png; path = imgs/cmblot1_v2.png; sourceTree = "<group>"; };
+		93AF33251743559300059CD8 /* cmbstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cmbstore.png; path = imgs/cmbstore.png; sourceTree = "<group>"; };
+		93AF33261743559300059CD8 /* creditcard_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = creditcard_bg.png; path = imgs/creditcard_bg.png; sourceTree = "<group>"; };
+		93AF33271743559300059CD8 /* creditcard_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = creditcard_open.png; path = imgs/creditcard_open.png; sourceTree = "<group>"; };
+		93AF33281743559300059CD8 /* creditcard_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = creditcard_unselected.png; path = imgs/creditcard_unselected.png; sourceTree = "<group>"; };
+		93AF33291743559300059CD8 /* creditcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = creditcard.png; path = imgs/creditcard.png; sourceTree = "<group>"; };
+		93AF332A1743559300059CD8 /* customer_service.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = customer_service.png; path = imgs/customer_service.png; sourceTree = "<group>"; };
+		93AF332B1743559300059CD8 /* dcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dcode.png; path = imgs/dcode.png; sourceTree = "<group>"; };
+		93AF332C1743559300059CD8 /* debitcard_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = debitcard_bg.png; path = imgs/debitcard_bg.png; sourceTree = "<group>"; };
+		93AF332D1743559300059CD8 /* debitcard_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = debitcard_unselected.png; path = imgs/debitcard_unselected.png; sourceTree = "<group>"; };
+		93AF332E1743559300059CD8 /* debitcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = debitcard.png; path = imgs/debitcard.png; sourceTree = "<group>"; };
+		93AF332F1743559300059CD8 /* default1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default1.png; path = imgs/default1.png; sourceTree = "<group>"; };
+		93AF33301743559300059CD8 /* default2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default2.png; path = imgs/default2.png; sourceTree = "<group>"; };
+		93AF33311743559300059CD8 /* default3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default3.png; path = imgs/default3.png; sourceTree = "<group>"; };
+		93AF33321743559300059CD8 /* default4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default4.png; path = imgs/default4.png; sourceTree = "<group>"; };
+		93AF33331743559300059CD8 /* deposit_calc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deposit_calc.png; path = imgs/deposit_calc.png; sourceTree = "<group>"; };
+		93AF33341743559300059CD8 /* deposit_rates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deposit_rates.png; path = imgs/deposit_rates.png; sourceTree = "<group>"; };
+		93AF33351743559300059CD8 /* err.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = err.png; path = imgs/err.png; sourceTree = "<group>"; };
+		93AF33361743559300059CD8 /* expenses_standard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = expenses_standard.png; path = imgs/expenses_standard.png; sourceTree = "<group>"; };
+		93AF33371743559300059CD8 /* favorite_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite_add.png; path = imgs/favorite_add.png; sourceTree = "<group>"; };
+		93AF33381743559300059CD8 /* favorite_bg.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite_bg.9.png; path = imgs/favorite_bg.9.png; sourceTree = "<group>"; };
+		93AF33391743559300059CD8 /* favorite_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite_delete.png; path = imgs/favorite_delete.png; sourceTree = "<group>"; };
+		93AF333A1743559300059CD8 /* favorite_done_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite_done_normal.png; path = imgs/favorite_done_normal.png; sourceTree = "<group>"; };
+		93AF333B1743559300059CD8 /* favorite_done_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite_done_pressed.png; path = imgs/favorite_done_pressed.png; sourceTree = "<group>"; };
+		93AF333C1743559300059CD8 /* favorite_icon_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite_icon_delete.png; path = imgs/favorite_icon_delete.png; sourceTree = "<group>"; };
+		93AF333D1743559300059CD8 /* favorite_item_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite_item_checked.png; path = imgs/favorite_item_checked.png; sourceTree = "<group>"; };
+		93AF333E1743559300059CD8 /* favorite_navbar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = favorite_navbar_bg.png; path = imgs/favorite_navbar_bg.png; sourceTree = "<group>"; };
+		93AF333F1743559300059CD8 /* fenxizhongxin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fenxizhongxin.png; path = imgs/fenxizhongxin.png; sourceTree = "<group>"; };
+		93AF33401743559300059CD8 /* financial_market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = financial_market.png; path = imgs/financial_market.png; sourceTree = "<group>"; };
+		93AF33411743559300059CD8 /* financial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = financial.png; path = imgs/financial.png; sourceTree = "<group>"; };
+		93AF33421743559300059CD8 /* financing_calc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = financing_calc.png; path = imgs/financing_calc.png; sourceTree = "<group>"; };
+		93AF33431743559300059CD8 /* financing_product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = financing_product.png; path = imgs/financing_product.png; sourceTree = "<group>"; };
+		93AF33441743559300059CD8 /* foreign_exchange_calc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foreign_exchange_calc.png; path = imgs/foreign_exchange_calc.png; sourceTree = "<group>"; };
+		93AF33451743559300059CD8 /* foreign_exchange_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foreign_exchange_info.png; path = imgs/foreign_exchange_info.png; sourceTree = "<group>"; };
+		93AF33461743559300059CD8 /* foreign_exchange_mgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foreign_exchange_mgr.png; path = imgs/foreign_exchange_mgr.png; sourceTree = "<group>"; };
+		93AF33471743559300059CD8 /* foreign_exchange_rates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foreign_exchange_rates.png; path = imgs/foreign_exchange_rates.png; sourceTree = "<group>"; };
+		93AF33481743559300059CD8 /* fund_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fund_info.png; path = imgs/fund_info.png; sourceTree = "<group>"; };
+		93AF33491743559300059CD8 /* fundproduct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fundproduct.png; path = imgs/fundproduct.png; sourceTree = "<group>"; };
+		93AF334A1743559300059CD8 /* funds_npv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = funds_npv.png; path = imgs/funds_npv.png; sourceTree = "<group>"; };
+		93AF334B1743559300059CD8 /* funguide_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = funguide_v2.png; path = imgs/funguide_v2.png; sourceTree = "<group>"; };
+		93AF334C1743559300059CD8 /* gamecard_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gamecard_v2.png; path = imgs/gamecard_v2.png; sourceTree = "<group>"; };
+		93AF334D1743559300059CD8 /* gamecard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gamecard.png; path = imgs/gamecard.png; sourceTree = "<group>"; };
+		93AF334E1743559300059CD8 /* gerenzhongxin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gerenzhongxin.png; path = imgs/gerenzhongxin.png; sourceTree = "<group>"; };
+		93AF334F1743559300059CD8 /* gold_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gold_info.png; path = imgs/gold_info.png; sourceTree = "<group>"; };
+		93AF33501743559300059CD8 /* gold_market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gold_market.png; path = imgs/gold_market.png; sourceTree = "<group>"; };
+		93AF33511743559300059CD8 /* hemaidating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hemaidating.png; path = imgs/hemaidating.png; sourceTree = "<group>"; };
+		93AF33521743559300059CD8 /* homepage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homepage.png; path = imgs/homepage.png; sourceTree = "<group>"; };
+		93AF33531743559300059CD8 /* huacai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huacai.png; path = imgs/huacai.png; sourceTree = "<group>"; };
+		93AF33541743559300059CD8 /* icon_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_delete.png; path = imgs/icon_delete.png; sourceTree = "<group>"; };
+		93AF33551743559300059CD8 /* icon_financialtool_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_financialtool_normal.png; path = imgs/icon_financialtool_normal.png; sourceTree = "<group>"; };
+		93AF33561743559300059CD8 /* icon_financialtool_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_financialtool_pressed.png; path = imgs/icon_financialtool_pressed.png; sourceTree = "<group>"; };
+		93AF33571743559300059CD8 /* icon_lifetool_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_lifetool_normal.png; path = imgs/icon_lifetool_normal.png; sourceTree = "<group>"; };
+		93AF33581743559300059CD8 /* icon_lifetool_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_lifetool_pressed.png; path = imgs/icon_lifetool_pressed.png; sourceTree = "<group>"; };
+		93AF33591743559300059CD8 /* icon_myfavorite_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_myfavorite_normal.png; path = imgs/icon_myfavorite_normal.png; sourceTree = "<group>"; };
+		93AF335A1743559300059CD8 /* icon_myfavorite_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_myfavorite_pressed.png; path = imgs/icon_myfavorite_pressed.png; sourceTree = "<group>"; };
+		93AF335B1743559300059CD8 /* icon_phonebank_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_phonebank_normal.png; path = imgs/icon_phonebank_normal.png; sourceTree = "<group>"; };
+		93AF335C1743559300059CD8 /* icon_phonebank_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_phonebank_pressed.png; path = imgs/icon_phonebank_pressed.png; sourceTree = "<group>"; };
+		93AF335D1743559300059CD8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = imgs/icon.png; sourceTree = "<group>"; };
+		93AF335E1743559300059CD8 /* iic_menu_close_clear_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iic_menu_close_clear_cancel.png; path = imgs/iic_menu_close_clear_cancel.png; sourceTree = "<group>"; };
+		93AF335F1743559300059CD8 /* iic_menu_friendslist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iic_menu_friendslist.png; path = imgs/iic_menu_friendslist.png; sourceTree = "<group>"; };
+		93AF33601743559300059CD8 /* iic_menu_help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iic_menu_help.png; path = imgs/iic_menu_help.png; sourceTree = "<group>"; };
+		93AF33611743559300059CD8 /* iic_menu_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iic_menu_refresh.png; path = imgs/iic_menu_refresh.png; sourceTree = "<group>"; };
+		93AF33621743559300059CD8 /* info_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info_v2.png; path = imgs/info_v2.png; sourceTree = "<group>"; };
+		93AF33631743559300059CD8 /* instalment_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instalment_v2.png; path = imgs/instalment_v2.png; sourceTree = "<group>"; };
+		93AF33641743559300059CD8 /* instalment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instalment.png; path = imgs/instalment.png; sourceTree = "<group>"; };
+		93AF33651743559300059CD8 /* insurance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = insurance.png; path = imgs/insurance.png; sourceTree = "<group>"; };
+		93AF33661743559300059CD8 /* invest_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = invest_info.png; path = imgs/invest_info.png; sourceTree = "<group>"; };
+		93AF33671743559300059CD8 /* invest_mgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = invest_mgr.png; path = imgs/invest_mgr.png; sourceTree = "<group>"; };
+		93AF33681743559300059CD8 /* investproduct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = investproduct.png; path = imgs/investproduct.png; sourceTree = "<group>"; };
+		93AF33691743559300059CD8 /* investproduct2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = investproduct2.png; path = imgs/investproduct2.png; sourceTree = "<group>"; };
+		93AF336A1743559300059CD8 /* jiaoyichaxun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jiaoyichaxun.png; path = imgs/jiaoyichaxun.png; sourceTree = "<group>"; };
+		93AF336B1743559300059CD8 /* jiehui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jiehui.png; path = imgs/jiehui.png; sourceTree = "<group>"; };
+		93AF336C1743559300059CD8 /* kaijianggonggao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kaijianggonggao.png; path = imgs/kaijianggonggao.png; sourceTree = "<group>"; };
+		93AF336D1743559300059CD8 /* lifetool_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lifetool_bg.png; path = imgs/lifetool_bg.png; sourceTree = "<group>"; };
+		93AF336E1743559300059CD8 /* list_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_bg.png; path = imgs/list_bg.png; sourceTree = "<group>"; };
+		93AF336F1743559300059CD8 /* list_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_pressed.png; path = imgs/list_pressed.png; sourceTree = "<group>"; };
+		93AF33701743559300059CD8 /* list_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_selected.png; path = imgs/list_selected.png; sourceTree = "<group>"; };
+		93AF33711743559300059CD8 /* list_separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = list_separator.png; path = imgs/list_separator.png; sourceTree = "<group>"; };
+		93AF33721743559300059CD8 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading.png; path = imgs/loading.png; sourceTree = "<group>"; };
+		93AF33731743559300059CD8 /* loan_calc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loan_calc.png; path = imgs/loan_calc.png; sourceTree = "<group>"; };
+		93AF33741743559300059CD8 /* loan_manage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loan_manage.png; path = imgs/loan_manage.png; sourceTree = "<group>"; };
+		93AF33751743559300059CD8 /* loan_rates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loan_rates.png; path = imgs/loan_rates.png; sourceTree = "<group>"; };
+		93AF33761743559300059CD8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = imgs/logo.png; sourceTree = "<group>"; };
+		93AF33771743559300059CD8 /* lotcontract_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lotcontract_v2.png; path = imgs/lotcontract_v2.png; sourceTree = "<group>"; };
+		93AF33781743559300059CD8 /* lv1menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lv1menu.png; path = imgs/lv1menu.png; sourceTree = "<group>"; };
+		93AF33791743559300059CD8 /* mobile_bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mobile_bank.png; path = imgs/mobile_bank.png; sourceTree = "<group>"; };
+		93AF337A1743559300059CD8 /* mobile_keepaccounts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mobile_keepaccounts.png; path = imgs/mobile_keepaccounts.png; sourceTree = "<group>"; };
+		93AF337B1743559300059CD8 /* mortgage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mortgage.png; path = imgs/mortgage.png; sourceTree = "<group>"; };
+		93AF337C1743559300059CD8 /* movie_ticket_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = movie_ticket_v2.png; path = imgs/movie_ticket_v2.png; sourceTree = "<group>"; };
+		93AF337D1743559300059CD8 /* movieticket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = movieticket.png; path = imgs/movieticket.png; sourceTree = "<group>"; };
+		93AF337E1743559300059CD8 /* myappoint_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myappoint_v2.png; path = imgs/myappoint_v2.png; sourceTree = "<group>"; };
+		93AF337F1743559300059CD8 /* mylot_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mylot_v2.png; path = imgs/mylot_v2.png; sourceTree = "<group>"; };
+		93AF33801743559300059CD8 /* national_debt_price.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = national_debt_price.png; path = imgs/national_debt_price.png; sourceTree = "<group>"; };
+		93AF33811743559300059CD8 /* national_debt_price1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = national_debt_price1.png; path = imgs/national_debt_price1.png; sourceTree = "<group>"; };
+		93AF33821743559300059CD8 /* nationaldebt_calc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nationaldebt_calc.png; path = imgs/nationaldebt_calc.png; sourceTree = "<group>"; };
+		93AF33831743559300059CD8 /* netcard_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = netcard_unselected.png; path = imgs/netcard_unselected.png; sourceTree = "<group>"; };
+		93AF33841743559300059CD8 /* netcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = netcard.png; path = imgs/netcard.png; sourceTree = "<group>"; };
+		93AF33851743559300059CD8 /* netpay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = netpay.png; path = imgs/netpay.png; sourceTree = "<group>"; };
+		93AF33861743559300059CD8 /* newbusiness_product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = newbusiness_product.png; path = imgs/newbusiness_product.png; sourceTree = "<group>"; };
+		93AF33871743559300059CD8 /* noble_metal_price.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noble_metal_price.png; path = imgs/noble_metal_price.png; sourceTree = "<group>"; };
+		93AF33881743559300059CD8 /* noble_metal_price1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noble_metal_price1.png; path = imgs/noble_metal_price1.png; sourceTree = "<group>"; };
+		93AF33891743559300059CD8 /* offshore_deposit_rates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = offshore_deposit_rates.png; path = imgs/offshore_deposit_rates.png; sourceTree = "<group>"; };
+		93AF338A1743559300059CD8 /* onenet_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onenet_bg.png; path = imgs/onenet_bg.png; sourceTree = "<group>"; };
+		93AF338B1743559300059CD8 /* play_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_v2.png; path = imgs/play_v2.png; sourceTree = "<group>"; };
+		93AF338C1743559300059CD8 /* point_mgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = point_mgr.png; path = imgs/point_mgr.png; sourceTree = "<group>"; };
+		93AF338D1743559300059CD8 /* preferential_news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = preferential_news.png; path = imgs/preferential_news.png; sourceTree = "<group>"; };
+		93AF338E1743559300059CD8 /* preferential_shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = preferential_shop.png; path = imgs/preferential_shop.png; sourceTree = "<group>"; };
+		93AF338F1743559300059CD8 /* prefix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prefix.png; path = imgs/prefix.png; sourceTree = "<group>"; };
+		93AF33901743559300059CD8 /* productmarket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = productmarket.png; path = imgs/productmarket.png; sourceTree = "<group>"; };
+		93AF33911743559300059CD8 /* relate_creditcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = relate_creditcard.png; path = imgs/relate_creditcard.png; sourceTree = "<group>"; };
+		93AF33921743559300059CD8 /* relate_debitcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = relate_debitcard.png; path = imgs/relate_debitcard.png; sourceTree = "<group>"; };
+		93AF33931743559300059CD8 /* repayment_mgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = repayment_mgr.png; path = imgs/repayment_mgr.png; sourceTree = "<group>"; };
+		93AF33941743559300059CD8 /* securities_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = securities_info.png; path = imgs/securities_info.png; sourceTree = "<group>"; };
+		93AF33951743559300059CD8 /* self_bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = self_bank.png; path = imgs/self_bank.png; sourceTree = "<group>"; };
+		93AF33961743559300059CD8 /* self_pay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = self_pay.png; path = imgs/self_pay.png; sourceTree = "<group>"; };
+		93AF33971743559300059CD8 /* self_transfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = self_transfer.png; path = imgs/self_transfer.png; sourceTree = "<group>"; };
+		93AF33981743559300059CD8 /* service_hotline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = service_hotline.png; path = imgs/service_hotline.png; sourceTree = "<group>"; };
+		93AF33991743559300059CD8 /* shop_query.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shop_query.png; path = imgs/shop_query.png; sourceTree = "<group>"; };
+		93AF339A1743559300059CD8 /* shouhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shouhui.png; path = imgs/shouhui.png; sourceTree = "<group>"; };
+		93AF339B1743559300059CD8 /* special_service.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = special_service.png; path = imgs/special_service.png; sourceTree = "<group>"; };
+		93AF339C1743559300059CD8 /* suffix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = suffix.png; path = imgs/suffix.png; sourceTree = "<group>"; };
+		93AF339D1743559300059CD8 /* super_net.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = super_net.png; path = imgs/super_net.png; sourceTree = "<group>"; };
+		93AF339E1743559300059CD8 /* szlot1_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = szlot1_v2.png; path = imgs/szlot1_v2.png; sourceTree = "<group>"; };
+		93AF339F1743559300059CD8 /* today_analysis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = today_analysis.png; path = imgs/today_analysis.png; sourceTree = "<group>"; };
+		93AF33A01743559300059CD8 /* today_analysis1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = today_analysis1.png; path = imgs/today_analysis1.png; sourceTree = "<group>"; };
+		93AF33A11743559300059CD8 /* today_cmb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = today_cmb.png; path = imgs/today_cmb.png; sourceTree = "<group>"; };
+		93AF33A21743559300059CD8 /* topbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = topbg.png; path = imgs/topbg.png; sourceTree = "<group>"; };
+		93AF33A31743559300059CD8 /* toplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = toplogo.png; path = imgs/toplogo.png; sourceTree = "<group>"; };
+		93AF33A41743559300059CD8 /* transfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transfer.png; path = imgs/transfer.png; sourceTree = "<group>"; };
+		93AF33A51743559300059CD8 /* user_registration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user_registration.png; path = imgs/user_registration.png; sourceTree = "<group>"; };
+		93AF33A61743559300059CD8 /* userinfo_mgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = userinfo_mgr.png; path = imgs/userinfo_mgr.png; sourceTree = "<group>"; };
+		93AF33A71743559300059CD8 /* vancl_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vancl_v2.png; path = imgs/vancl_v2.png; sourceTree = "<group>"; };
+		93AF33A81743559300059CD8 /* wangpiao_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wangpiao_v2.png; path = imgs/wangpiao_v2.png; sourceTree = "<group>"; };
+		93AF33A91743559300059CD8 /* webbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = webbg.png; path = imgs/webbg.png; sourceTree = "<group>"; };
+		93AF33AA1743559300059CD8 /* zhangdanchaxun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zhangdanchaxun.png; path = imgs/zhangdanchaxun.png; sourceTree = "<group>"; };
+		93AF33AB1743559300059CD8 /* zhanghuchaxun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zhanghuchaxun.png; path = imgs/zhanghuchaxun.png; sourceTree = "<group>"; };
+		93AF33AC1743559300059CD8 /* zhifutong_v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zhifutong_v2.png; path = imgs/zhifutong_v2.png; sourceTree = "<group>"; };
+		93AF33AD1743559300059CD8 /* zhifutong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zhifutong.png; path = imgs/zhifutong.png; sourceTree = "<group>"; };
+		93AF33AE1743559300059CD8 /* zixuntuijian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zixuntuijian.png; path = imgs/zixuntuijian.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +482,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93AF330A1743515B00059CD8 /* QuartzCore.framework in Frameworks */,
+				93AF32FF174336C000059CD8 /* libVitMobile.a in Frameworks */,
 				9324A4391740D9FF002BEC14 /* libxml2.dylib in Frameworks */,
 				9324A3761740D334002BEC14 /* UIKit.framework in Frameworks */,
 				9324A3781740D334002BEC14 /* Foundation.framework in Frameworks */,
@@ -160,11 +507,13 @@
 		9324A3661740D334002BEC14 = {
 			isa = PBXGroup;
 			children = (
+				93AB3544174221070056A086 /* Menu */,
 				9324A3CD1740D6AD002BEC14 /* TouchXML */,
 				9324A37B1740D334002BEC14 /* PacteraMBanking */,
 				9324A3B31740D335002BEC14 /* PacteraMBankingTests */,
 				9324A3741740D334002BEC14 /* Frameworks */,
 				9324A3721740D334002BEC14 /* Products */,
+				93AF330F1743557500059CD8 /* Img */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,6 +529,8 @@
 		9324A3741740D334002BEC14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93AF33091743515B00059CD8 /* QuartzCore.framework */,
+				93AF32F5174336B400059CD8 /* VitMobile.xcodeproj */,
 				9324A4381740D9FF002BEC14 /* libxml2.dylib */,
 				9324A3751740D334002BEC14 /* UIKit.framework */,
 				9324A3771740D334002BEC14 /* Foundation.framework */,
@@ -194,6 +545,8 @@
 			children = (
 				9324A3841740D334002BEC14 /* PTAppDelegate.h */,
 				9324A3851740D334002BEC14 /* PTAppDelegate.m */,
+				93AF33001743375C00059CD8 /* PTGridMenuUI.h */,
+				93AF33011743375C00059CD8 /* PTGridMenuUI.m */,
 				9324A38D1740D334002BEC14 /* PTFirstViewController.h */,
 				9324A38E1740D334002BEC14 /* PTFirstViewController.m */,
 				9324A3901740D334002BEC14 /* first.png */,
@@ -278,6 +631,194 @@
 			name = TouchXML;
 			sourceTree = "<group>";
 		};
+		93AB3544174221070056A086 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				93AB35461742211B0056A086 /* CommonMenu.xml */,
+				933C809A174226ED006D4C18 /* PTMenuConfig.h */,
+				933C809B174226ED006D4C18 /* PTMenuConfig.m */,
+				93AF3303174339E000059CD8 /* SessionManager.h */,
+				93AF3304174339E000059CD8 /* SessionManager.m */,
+				93AF3306174346EF00059CD8 /* MenuNavigate.h */,
+				93AF3307174346EF00059CD8 /* MenuNavigate.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		93AF32F6174336B400059CD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93AF32FD174336B400059CD8 /* libVitMobile.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93AF330F1743557500059CD8 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				93AF33101743559300059CD8 /* a000000.png */,
+				93AF33111743559300059CD8 /* account_mgr.png */,
+				93AF33121743559300059CD8 /* alerts_service.png */,
+				93AF33131743559300059CD8 /* amortization_trade.png */,
+				93AF33141743559300059CD8 /* amortization_trade1.png */,
+				93AF33151743559300059CD8 /* appointment_v2.png */,
+				93AF33161743559300059CD8 /* atm_query.png */,
+				93AF33171743559300059CD8 /* bangzhuzhongxin.png */,
+				93AF33181743559300059CD8 /* bg.png */,
+				93AF33191743559300059CD8 /* branch_query.png */,
+				93AF331A1743559300059CD8 /* branches.png */,
+				93AF331B1743559300059CD8 /* caipiaotaocan.png */,
+				93AF331C1743559300059CD8 /* caipiaotouzhu.png */,
+				93AF331D1743559300059CD8 /* card_mgr.png */,
+				93AF331E1743559300059CD8 /* chongzhi.png */,
+				93AF331F1743559300059CD8 /* chuxingyi.png */,
+				93AF33201743559300059CD8 /* chuxingyi0.png */,
+				93AF33211743559300059CD8 /* cmb_announcement.png */,
+				93AF33221743559300059CD8 /* cmb_news.png */,
+				93AF33231743559300059CD8 /* cmb_stock_price.png */,
+				93AF33241743559300059CD8 /* cmblot1_v2.png */,
+				93AF33251743559300059CD8 /* cmbstore.png */,
+				93AF33261743559300059CD8 /* creditcard_bg.png */,
+				93AF33271743559300059CD8 /* creditcard_open.png */,
+				93AF33281743559300059CD8 /* creditcard_unselected.png */,
+				93AF33291743559300059CD8 /* creditcard.png */,
+				93AF332A1743559300059CD8 /* customer_service.png */,
+				93AF332B1743559300059CD8 /* dcode.png */,
+				93AF332C1743559300059CD8 /* debitcard_bg.png */,
+				93AF332D1743559300059CD8 /* debitcard_unselected.png */,
+				93AF332E1743559300059CD8 /* debitcard.png */,
+				93AF332F1743559300059CD8 /* default1.png */,
+				93AF33301743559300059CD8 /* default2.png */,
+				93AF33311743559300059CD8 /* default3.png */,
+				93AF33321743559300059CD8 /* default4.png */,
+				93AF33331743559300059CD8 /* deposit_calc.png */,
+				93AF33341743559300059CD8 /* deposit_rates.png */,
+				93AF33351743559300059CD8 /* err.png */,
+				93AF33361743559300059CD8 /* expenses_standard.png */,
+				93AF33371743559300059CD8 /* favorite_add.png */,
+				93AF33381743559300059CD8 /* favorite_bg.9.png */,
+				93AF33391743559300059CD8 /* favorite_delete.png */,
+				93AF333A1743559300059CD8 /* favorite_done_normal.png */,
+				93AF333B1743559300059CD8 /* favorite_done_pressed.png */,
+				93AF333C1743559300059CD8 /* favorite_icon_delete.png */,
+				93AF333D1743559300059CD8 /* favorite_item_checked.png */,
+				93AF333E1743559300059CD8 /* favorite_navbar_bg.png */,
+				93AF333F1743559300059CD8 /* fenxizhongxin.png */,
+				93AF33401743559300059CD8 /* financial_market.png */,
+				93AF33411743559300059CD8 /* financial.png */,
+				93AF33421743559300059CD8 /* financing_calc.png */,
+				93AF33431743559300059CD8 /* financing_product.png */,
+				93AF33441743559300059CD8 /* foreign_exchange_calc.png */,
+				93AF33451743559300059CD8 /* foreign_exchange_info.png */,
+				93AF33461743559300059CD8 /* foreign_exchange_mgr.png */,
+				93AF33471743559300059CD8 /* foreign_exchange_rates.png */,
+				93AF33481743559300059CD8 /* fund_info.png */,
+				93AF33491743559300059CD8 /* fundproduct.png */,
+				93AF334A1743559300059CD8 /* funds_npv.png */,
+				93AF334B1743559300059CD8 /* funguide_v2.png */,
+				93AF334C1743559300059CD8 /* gamecard_v2.png */,
+				93AF334D1743559300059CD8 /* gamecard.png */,
+				93AF334E1743559300059CD8 /* gerenzhongxin.png */,
+				93AF334F1743559300059CD8 /* gold_info.png */,
+				93AF33501743559300059CD8 /* gold_market.png */,
+				93AF33511743559300059CD8 /* hemaidating.png */,
+				93AF33521743559300059CD8 /* homepage.png */,
+				93AF33531743559300059CD8 /* huacai.png */,
+				93AF33541743559300059CD8 /* icon_delete.png */,
+				93AF33551743559300059CD8 /* icon_financialtool_normal.png */,
+				93AF33561743559300059CD8 /* icon_financialtool_pressed.png */,
+				93AF33571743559300059CD8 /* icon_lifetool_normal.png */,
+				93AF33581743559300059CD8 /* icon_lifetool_pressed.png */,
+				93AF33591743559300059CD8 /* icon_myfavorite_normal.png */,
+				93AF335A1743559300059CD8 /* icon_myfavorite_pressed.png */,
+				93AF335B1743559300059CD8 /* icon_phonebank_normal.png */,
+				93AF335C1743559300059CD8 /* icon_phonebank_pressed.png */,
+				93AF335D1743559300059CD8 /* icon.png */,
+				93AF335E1743559300059CD8 /* iic_menu_close_clear_cancel.png */,
+				93AF335F1743559300059CD8 /* iic_menu_friendslist.png */,
+				93AF33601743559300059CD8 /* iic_menu_help.png */,
+				93AF33611743559300059CD8 /* iic_menu_refresh.png */,
+				93AF33621743559300059CD8 /* info_v2.png */,
+				93AF33631743559300059CD8 /* instalment_v2.png */,
+				93AF33641743559300059CD8 /* instalment.png */,
+				93AF33651743559300059CD8 /* insurance.png */,
+				93AF33661743559300059CD8 /* invest_info.png */,
+				93AF33671743559300059CD8 /* invest_mgr.png */,
+				93AF33681743559300059CD8 /* investproduct.png */,
+				93AF33691743559300059CD8 /* investproduct2.png */,
+				93AF336A1743559300059CD8 /* jiaoyichaxun.png */,
+				93AF336B1743559300059CD8 /* jiehui.png */,
+				93AF336C1743559300059CD8 /* kaijianggonggao.png */,
+				93AF336D1743559300059CD8 /* lifetool_bg.png */,
+				93AF336E1743559300059CD8 /* list_bg.png */,
+				93AF336F1743559300059CD8 /* list_pressed.png */,
+				93AF33701743559300059CD8 /* list_selected.png */,
+				93AF33711743559300059CD8 /* list_separator.png */,
+				93AF33721743559300059CD8 /* loading.png */,
+				93AF33731743559300059CD8 /* loan_calc.png */,
+				93AF33741743559300059CD8 /* loan_manage.png */,
+				93AF33751743559300059CD8 /* loan_rates.png */,
+				93AF33761743559300059CD8 /* logo.png */,
+				93AF33771743559300059CD8 /* lotcontract_v2.png */,
+				93AF33781743559300059CD8 /* lv1menu.png */,
+				93AF33791743559300059CD8 /* mobile_bank.png */,
+				93AF337A1743559300059CD8 /* mobile_keepaccounts.png */,
+				93AF337B1743559300059CD8 /* mortgage.png */,
+				93AF337C1743559300059CD8 /* movie_ticket_v2.png */,
+				93AF337D1743559300059CD8 /* movieticket.png */,
+				93AF337E1743559300059CD8 /* myappoint_v2.png */,
+				93AF337F1743559300059CD8 /* mylot_v2.png */,
+				93AF33801743559300059CD8 /* national_debt_price.png */,
+				93AF33811743559300059CD8 /* national_debt_price1.png */,
+				93AF33821743559300059CD8 /* nationaldebt_calc.png */,
+				93AF33831743559300059CD8 /* netcard_unselected.png */,
+				93AF33841743559300059CD8 /* netcard.png */,
+				93AF33851743559300059CD8 /* netpay.png */,
+				93AF33861743559300059CD8 /* newbusiness_product.png */,
+				93AF33871743559300059CD8 /* noble_metal_price.png */,
+				93AF33881743559300059CD8 /* noble_metal_price1.png */,
+				93AF33891743559300059CD8 /* offshore_deposit_rates.png */,
+				93AF338A1743559300059CD8 /* onenet_bg.png */,
+				93AF338B1743559300059CD8 /* play_v2.png */,
+				93AF338C1743559300059CD8 /* point_mgr.png */,
+				93AF338D1743559300059CD8 /* preferential_news.png */,
+				93AF338E1743559300059CD8 /* preferential_shop.png */,
+				93AF338F1743559300059CD8 /* prefix.png */,
+				93AF33901743559300059CD8 /* productmarket.png */,
+				93AF33911743559300059CD8 /* relate_creditcard.png */,
+				93AF33921743559300059CD8 /* relate_debitcard.png */,
+				93AF33931743559300059CD8 /* repayment_mgr.png */,
+				93AF33941743559300059CD8 /* securities_info.png */,
+				93AF33951743559300059CD8 /* self_bank.png */,
+				93AF33961743559300059CD8 /* self_pay.png */,
+				93AF33971743559300059CD8 /* self_transfer.png */,
+				93AF33981743559300059CD8 /* service_hotline.png */,
+				93AF33991743559300059CD8 /* shop_query.png */,
+				93AF339A1743559300059CD8 /* shouhui.png */,
+				93AF339B1743559300059CD8 /* special_service.png */,
+				93AF339C1743559300059CD8 /* suffix.png */,
+				93AF339D1743559300059CD8 /* super_net.png */,
+				93AF339E1743559300059CD8 /* szlot1_v2.png */,
+				93AF339F1743559300059CD8 /* today_analysis.png */,
+				93AF33A01743559300059CD8 /* today_analysis1.png */,
+				93AF33A11743559300059CD8 /* today_cmb.png */,
+				93AF33A21743559300059CD8 /* topbg.png */,
+				93AF33A31743559300059CD8 /* toplogo.png */,
+				93AF33A41743559300059CD8 /* transfer.png */,
+				93AF33A51743559300059CD8 /* user_registration.png */,
+				93AF33A61743559300059CD8 /* userinfo_mgr.png */,
+				93AF33A71743559300059CD8 /* vancl_v2.png */,
+				93AF33A81743559300059CD8 /* wangpiao_v2.png */,
+				93AF33A91743559300059CD8 /* webbg.png */,
+				93AF33AA1743559300059CD8 /* zhangdanchaxun.png */,
+				93AF33AB1743559300059CD8 /* zhanghuchaxun.png */,
+				93AF33AC1743559300059CD8 /* zhifutong_v2.png */,
+				93AF33AD1743559300059CD8 /* zhifutong.png */,
+				93AF33AE1743559300059CD8 /* zixuntuijian.png */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -337,6 +878,12 @@
 			mainGroup = 9324A3661740D334002BEC14;
 			productRefGroup = 9324A3721740D334002BEC14 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 93AF32F6174336B400059CD8 /* Products */;
+					ProjectRef = 93AF32F5174336B400059CD8 /* VitMobile.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9324A3701740D334002BEC14 /* PacteraMBanking */,
@@ -344,6 +891,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		93AF32FD174336B400059CD8 /* libVitMobile.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVitMobile.a;
+			remoteRef = 93AF32FC174336B400059CD8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9324A36F1740D334002BEC14 /* Resources */ = {
@@ -362,6 +919,166 @@
 				9324A3A01740D335002BEC14 /* PTFirstViewController_iPad.xib in Resources */,
 				9324A3A31740D335002BEC14 /* PTSecondViewController_iPhone.xib in Resources */,
 				9324A3A61740D335002BEC14 /* PTSecondViewController_iPad.xib in Resources */,
+				93AB35471742211B0056A086 /* CommonMenu.xml in Resources */,
+				93AF33AF1743559300059CD8 /* a000000.png in Resources */,
+				93AF33B01743559300059CD8 /* account_mgr.png in Resources */,
+				93AF33B11743559300059CD8 /* alerts_service.png in Resources */,
+				93AF33B21743559300059CD8 /* amortization_trade.png in Resources */,
+				93AF33B31743559300059CD8 /* amortization_trade1.png in Resources */,
+				93AF33B41743559300059CD8 /* appointment_v2.png in Resources */,
+				93AF33B51743559300059CD8 /* atm_query.png in Resources */,
+				93AF33B61743559300059CD8 /* bangzhuzhongxin.png in Resources */,
+				93AF33B71743559300059CD8 /* bg.png in Resources */,
+				93AF33B81743559300059CD8 /* branch_query.png in Resources */,
+				93AF33B91743559300059CD8 /* branches.png in Resources */,
+				93AF33BA1743559300059CD8 /* caipiaotaocan.png in Resources */,
+				93AF33BB1743559300059CD8 /* caipiaotouzhu.png in Resources */,
+				93AF33BC1743559300059CD8 /* card_mgr.png in Resources */,
+				93AF33BD1743559300059CD8 /* chongzhi.png in Resources */,
+				93AF33BE1743559300059CD8 /* chuxingyi.png in Resources */,
+				93AF33BF1743559300059CD8 /* chuxingyi0.png in Resources */,
+				93AF33C01743559300059CD8 /* cmb_announcement.png in Resources */,
+				93AF33C11743559300059CD8 /* cmb_news.png in Resources */,
+				93AF33C21743559300059CD8 /* cmb_stock_price.png in Resources */,
+				93AF33C31743559300059CD8 /* cmblot1_v2.png in Resources */,
+				93AF33C41743559300059CD8 /* cmbstore.png in Resources */,
+				93AF33C51743559300059CD8 /* creditcard_bg.png in Resources */,
+				93AF33C61743559300059CD8 /* creditcard_open.png in Resources */,
+				93AF33C71743559300059CD8 /* creditcard_unselected.png in Resources */,
+				93AF33C81743559300059CD8 /* creditcard.png in Resources */,
+				93AF33C91743559300059CD8 /* customer_service.png in Resources */,
+				93AF33CA1743559300059CD8 /* dcode.png in Resources */,
+				93AF33CB1743559300059CD8 /* debitcard_bg.png in Resources */,
+				93AF33CC1743559300059CD8 /* debitcard_unselected.png in Resources */,
+				93AF33CD1743559300059CD8 /* debitcard.png in Resources */,
+				93AF33CE1743559300059CD8 /* default1.png in Resources */,
+				93AF33CF1743559300059CD8 /* default2.png in Resources */,
+				93AF33D01743559300059CD8 /* default3.png in Resources */,
+				93AF33D11743559300059CD8 /* default4.png in Resources */,
+				93AF33D21743559300059CD8 /* deposit_calc.png in Resources */,
+				93AF33D31743559300059CD8 /* deposit_rates.png in Resources */,
+				93AF33D41743559300059CD8 /* err.png in Resources */,
+				93AF33D51743559300059CD8 /* expenses_standard.png in Resources */,
+				93AF33D61743559300059CD8 /* favorite_add.png in Resources */,
+				93AF33D71743559300059CD8 /* favorite_bg.9.png in Resources */,
+				93AF33D81743559300059CD8 /* favorite_delete.png in Resources */,
+				93AF33D91743559300059CD8 /* favorite_done_normal.png in Resources */,
+				93AF33DA1743559300059CD8 /* favorite_done_pressed.png in Resources */,
+				93AF33DB1743559300059CD8 /* favorite_icon_delete.png in Resources */,
+				93AF33DC1743559300059CD8 /* favorite_item_checked.png in Resources */,
+				93AF33DD1743559300059CD8 /* favorite_navbar_bg.png in Resources */,
+				93AF33DE1743559300059CD8 /* fenxizhongxin.png in Resources */,
+				93AF33DF1743559300059CD8 /* financial_market.png in Resources */,
+				93AF33E01743559300059CD8 /* financial.png in Resources */,
+				93AF33E11743559300059CD8 /* financing_calc.png in Resources */,
+				93AF33E21743559300059CD8 /* financing_product.png in Resources */,
+				93AF33E31743559300059CD8 /* foreign_exchange_calc.png in Resources */,
+				93AF33E41743559300059CD8 /* foreign_exchange_info.png in Resources */,
+				93AF33E51743559300059CD8 /* foreign_exchange_mgr.png in Resources */,
+				93AF33E61743559300059CD8 /* foreign_exchange_rates.png in Resources */,
+				93AF33E71743559300059CD8 /* fund_info.png in Resources */,
+				93AF33E81743559300059CD8 /* fundproduct.png in Resources */,
+				93AF33E91743559300059CD8 /* funds_npv.png in Resources */,
+				93AF33EA1743559300059CD8 /* funguide_v2.png in Resources */,
+				93AF33EB1743559300059CD8 /* gamecard_v2.png in Resources */,
+				93AF33EC1743559300059CD8 /* gamecard.png in Resources */,
+				93AF33ED1743559300059CD8 /* gerenzhongxin.png in Resources */,
+				93AF33EE1743559300059CD8 /* gold_info.png in Resources */,
+				93AF33EF1743559300059CD8 /* gold_market.png in Resources */,
+				93AF33F01743559300059CD8 /* hemaidating.png in Resources */,
+				93AF33F11743559300059CD8 /* homepage.png in Resources */,
+				93AF33F21743559300059CD8 /* huacai.png in Resources */,
+				93AF33F31743559300059CD8 /* icon_delete.png in Resources */,
+				93AF33F41743559300059CD8 /* icon_financialtool_normal.png in Resources */,
+				93AF33F51743559300059CD8 /* icon_financialtool_pressed.png in Resources */,
+				93AF33F61743559300059CD8 /* icon_lifetool_normal.png in Resources */,
+				93AF33F71743559300059CD8 /* icon_lifetool_pressed.png in Resources */,
+				93AF33F81743559300059CD8 /* icon_myfavorite_normal.png in Resources */,
+				93AF33F91743559300059CD8 /* icon_myfavorite_pressed.png in Resources */,
+				93AF33FA1743559300059CD8 /* icon_phonebank_normal.png in Resources */,
+				93AF33FB1743559300059CD8 /* icon_phonebank_pressed.png in Resources */,
+				93AF33FC1743559300059CD8 /* icon.png in Resources */,
+				93AF33FD1743559300059CD8 /* iic_menu_close_clear_cancel.png in Resources */,
+				93AF33FE1743559300059CD8 /* iic_menu_friendslist.png in Resources */,
+				93AF33FF1743559300059CD8 /* iic_menu_help.png in Resources */,
+				93AF34001743559300059CD8 /* iic_menu_refresh.png in Resources */,
+				93AF34011743559300059CD8 /* info_v2.png in Resources */,
+				93AF34021743559300059CD8 /* instalment_v2.png in Resources */,
+				93AF34031743559300059CD8 /* instalment.png in Resources */,
+				93AF34041743559300059CD8 /* insurance.png in Resources */,
+				93AF34051743559300059CD8 /* invest_info.png in Resources */,
+				93AF34061743559300059CD8 /* invest_mgr.png in Resources */,
+				93AF34071743559300059CD8 /* investproduct.png in Resources */,
+				93AF34081743559300059CD8 /* investproduct2.png in Resources */,
+				93AF34091743559300059CD8 /* jiaoyichaxun.png in Resources */,
+				93AF340A1743559300059CD8 /* jiehui.png in Resources */,
+				93AF340B1743559300059CD8 /* kaijianggonggao.png in Resources */,
+				93AF340C1743559300059CD8 /* lifetool_bg.png in Resources */,
+				93AF340D1743559300059CD8 /* list_bg.png in Resources */,
+				93AF340E1743559300059CD8 /* list_pressed.png in Resources */,
+				93AF340F1743559300059CD8 /* list_selected.png in Resources */,
+				93AF34101743559300059CD8 /* list_separator.png in Resources */,
+				93AF34111743559300059CD8 /* loading.png in Resources */,
+				93AF34121743559300059CD8 /* loan_calc.png in Resources */,
+				93AF34131743559300059CD8 /* loan_manage.png in Resources */,
+				93AF34141743559300059CD8 /* loan_rates.png in Resources */,
+				93AF34151743559300059CD8 /* logo.png in Resources */,
+				93AF34161743559300059CD8 /* lotcontract_v2.png in Resources */,
+				93AF34171743559300059CD8 /* lv1menu.png in Resources */,
+				93AF34181743559300059CD8 /* mobile_bank.png in Resources */,
+				93AF34191743559300059CD8 /* mobile_keepaccounts.png in Resources */,
+				93AF341A1743559300059CD8 /* mortgage.png in Resources */,
+				93AF341B1743559300059CD8 /* movie_ticket_v2.png in Resources */,
+				93AF341C1743559300059CD8 /* movieticket.png in Resources */,
+				93AF341D1743559300059CD8 /* myappoint_v2.png in Resources */,
+				93AF341E1743559300059CD8 /* mylot_v2.png in Resources */,
+				93AF341F1743559300059CD8 /* national_debt_price.png in Resources */,
+				93AF34201743559300059CD8 /* national_debt_price1.png in Resources */,
+				93AF34211743559300059CD8 /* nationaldebt_calc.png in Resources */,
+				93AF34221743559300059CD8 /* netcard_unselected.png in Resources */,
+				93AF34231743559300059CD8 /* netcard.png in Resources */,
+				93AF34241743559300059CD8 /* netpay.png in Resources */,
+				93AF34251743559300059CD8 /* newbusiness_product.png in Resources */,
+				93AF34261743559300059CD8 /* noble_metal_price.png in Resources */,
+				93AF34271743559300059CD8 /* noble_metal_price1.png in Resources */,
+				93AF34281743559300059CD8 /* offshore_deposit_rates.png in Resources */,
+				93AF34291743559300059CD8 /* onenet_bg.png in Resources */,
+				93AF342A1743559300059CD8 /* play_v2.png in Resources */,
+				93AF342B1743559300059CD8 /* point_mgr.png in Resources */,
+				93AF342C1743559300059CD8 /* preferential_news.png in Resources */,
+				93AF342D1743559300059CD8 /* preferential_shop.png in Resources */,
+				93AF342E1743559300059CD8 /* prefix.png in Resources */,
+				93AF342F1743559300059CD8 /* productmarket.png in Resources */,
+				93AF34301743559300059CD8 /* relate_creditcard.png in Resources */,
+				93AF34311743559300059CD8 /* relate_debitcard.png in Resources */,
+				93AF34321743559300059CD8 /* repayment_mgr.png in Resources */,
+				93AF34331743559300059CD8 /* securities_info.png in Resources */,
+				93AF34341743559300059CD8 /* self_bank.png in Resources */,
+				93AF34351743559300059CD8 /* self_pay.png in Resources */,
+				93AF34361743559300059CD8 /* self_transfer.png in Resources */,
+				93AF34371743559300059CD8 /* service_hotline.png in Resources */,
+				93AF34381743559300059CD8 /* shop_query.png in Resources */,
+				93AF34391743559300059CD8 /* shouhui.png in Resources */,
+				93AF343A1743559300059CD8 /* special_service.png in Resources */,
+				93AF343B1743559300059CD8 /* suffix.png in Resources */,
+				93AF343C1743559300059CD8 /* super_net.png in Resources */,
+				93AF343D1743559300059CD8 /* szlot1_v2.png in Resources */,
+				93AF343E1743559300059CD8 /* today_analysis.png in Resources */,
+				93AF343F1743559300059CD8 /* today_analysis1.png in Resources */,
+				93AF34401743559300059CD8 /* today_cmb.png in Resources */,
+				93AF34411743559300059CD8 /* topbg.png in Resources */,
+				93AF34421743559300059CD8 /* toplogo.png in Resources */,
+				93AF34431743559300059CD8 /* transfer.png in Resources */,
+				93AF34441743559300059CD8 /* user_registration.png in Resources */,
+				93AF34451743559300059CD8 /* userinfo_mgr.png in Resources */,
+				93AF34461743559300059CD8 /* vancl_v2.png in Resources */,
+				93AF34471743559300059CD8 /* wangpiao_v2.png in Resources */,
+				93AF34481743559300059CD8 /* webbg.png in Resources */,
+				93AF34491743559300059CD8 /* zhangdanchaxun.png in Resources */,
+				93AF344A1743559300059CD8 /* zhanghuchaxun.png in Resources */,
+				93AF344B1743559300059CD8 /* zhifutong_v2.png in Resources */,
+				93AF344C1743559300059CD8 /* zhifutong.png in Resources */,
+				93AF344D1743559300059CD8 /* zixuntuijian.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +1087,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9324A3B81740D335002BEC14 /* InfoPlist.strings in Resources */,
+				93AB35481742211B0056A086 /* CommonMenu.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +1131,10 @@
 				9324A4321740D8B4002BEC14 /* CXMLNode_PrivateExtensions.m in Sources */,
 				9324A4341740D8B4002BEC14 /* CXMLNode_XPathExtensions.m in Sources */,
 				9324A4361740D8B4002BEC14 /* CXMLNode.m in Sources */,
+				933C809C174226ED006D4C18 /* PTMenuConfig.m in Sources */,
+				93AF33021743375C00059CD8 /* PTGridMenuUI.m in Sources */,
+				93AF3305174339E000059CD8 /* SessionManager.m in Sources */,
+				93AF3308174346EF00059CD8 /* MenuNavigate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +1156,7 @@
 				9324A4331740D8B4002BEC14 /* CXMLNode_PrivateExtensions.m in Sources */,
 				9324A4351740D8B4002BEC14 /* CXMLNode_XPathExtensions.m in Sources */,
 				9324A4371740D8B4002BEC14 /* CXMLNode.m in Sources */,
+				933C809D174226ED006D4C18 /* PTMenuConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,7 +1279,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PacteraMBanking/PacteraMBanking-Prefix.pch";
-				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/usr/include/libxml2,
+					vitlib,
+				);
 				INFOPLIST_FILE = "PacteraMBanking/PacteraMBanking-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -570,7 +1296,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PacteraMBanking/PacteraMBanking-Prefix.pch";
-				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/usr/include/libxml2,
+					vitlib,
+				);
 				INFOPLIST_FILE = "PacteraMBanking/PacteraMBanking-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -632,6 +1361,7 @@
 				9324A3C01740D335002BEC14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9324A3C11740D335002BEC14 /* Build configuration list for PBXNativeTarget "PacteraMBankingTests" */ = {
 			isa = XCConfigurationList;
@@ -640,6 +1370,7 @@
 				9324A3C31740D335002BEC14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

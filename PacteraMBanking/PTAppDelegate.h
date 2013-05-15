@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MenuNavigate.h"
 
 @interface PTAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) UITabBarController *tabBarController;
+@property (strong, nonatomic) MenuNavigate *menuNavigate;
 
 @end

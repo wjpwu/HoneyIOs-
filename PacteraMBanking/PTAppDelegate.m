@@ -7,28 +7,32 @@
 //
 
 #import "PTAppDelegate.h"
-
+#import "MenuNavigate.h"
 #import "PTFirstViewController.h"
 
 #import "PTSecondViewController.h"
 
 @implementation PTAppDelegate
+@synthesize menuNavigate;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    UIViewController *viewController1, *viewController2;
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        viewController1 = [[PTFirstViewController alloc] initWithNibName:@"PTFirstViewController_iPhone" bundle:nil];
-        viewController2 = [[PTSecondViewController alloc] initWithNibName:@"PTSecondViewController_iPhone" bundle:nil];
-    } else {
-        viewController1 = [[PTFirstViewController alloc] initWithNibName:@"PTFirstViewController_iPad" bundle:nil];
-        viewController2 = [[PTSecondViewController alloc] initWithNibName:@"PTSecondViewController_iPad" bundle:nil];
-    }
-    self.tabBarController = [[UITabBarController alloc] init];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
-    self.window.rootViewController = self.tabBarController;
+//    UIViewController *viewController1, *viewController2;
+//    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+//        viewController1 = [[PTFirstViewController alloc] initWithNibName:@"PTFirstViewController_iPhone" bundle:nil];
+//        viewController2 = [[PTSecondViewController alloc] initWithNibName:@"PTSecondViewController_iPhone" bundle:nil];
+//    } else {
+//        viewController1 = [[PTFirstViewController alloc] initWithNibName:@"PTFirstViewController_iPad" bundle:nil];
+//        viewController2 = [[PTSecondViewController alloc] initWithNibName:@"PTSecondViewController_iPad" bundle:nil];
+//    }
+//    self.tabBarController = [[UITabBarController alloc] init];
+//    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    
+    menuNavigate = [[MenuNavigate alloc] init];
+    [menuNavigate setupTabs];
+    self.window.rootViewController = menuNavigate.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
 }

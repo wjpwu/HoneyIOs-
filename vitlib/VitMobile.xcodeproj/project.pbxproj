@@ -1,0 +1,1225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		931C683615C10D430002C096 /* VTGridMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 931C683315C10D430002C096 /* VTGridMenu.h */; };
+		931C683715C10D430002C096 /* VTGridMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C683415C10D430002C096 /* VTGridMenu.m */; };
+		931C683A15C110C80002C096 /* MMGridViewVitCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 931C683815C110C80002C096 /* MMGridViewVitCell.h */; };
+		931C683B15C110C80002C096 /* MMGridViewVitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C683915C110C80002C096 /* MMGridViewVitCell.m */; };
+		931D0DEA16046AB400C8A36B /* CNTTabController.h in Headers */ = {isa = PBXBuildFile; fileRef = 931D0DE816046AB200C8A36B /* CNTTabController.h */; };
+		931D0DEB16046AB400C8A36B /* CNTTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931D0DE916046AB300C8A36B /* CNTTabController.m */; };
+		93254D331613074100F40D3D /* SBTableAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 93254D311613074000F40D3D /* SBTableAlert.h */; };
+		93254D341613074100F40D3D /* SBTableAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 93254D321613074000F40D3D /* SBTableAlert.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93254D3F1613E64800F40D3D /* PopSBTableAlertTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93254D3D1613E64500F40D3D /* PopSBTableAlertTableCell.h */; };
+		93254D401613E64800F40D3D /* PopSBTableAlertTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93254D3E1613E64600F40D3D /* PopSBTableAlertTableCell.m */; };
+		93254D431613FC8A00F40D3D /* CKCalendarAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 93254D411613FC8900F40D3D /* CKCalendarAlert.h */; };
+		93254D441613FC8A00F40D3D /* CKCalendarAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 93254D421613FC8900F40D3D /* CKCalendarAlert.m */; };
+		9327776A1600231C00427F2C /* TextViewInputTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 932777681600231C00427F2C /* TextViewInputTableViewCell.h */; };
+		9327776B1600231C00427F2C /* TextViewInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 932777691600231C00427F2C /* TextViewInputTableViewCell.m */; };
+		9327776F1600305500427F2C /* JFTextViewNoInset.h in Headers */ = {isa = PBXBuildFile; fileRef = 9327776D1600305300427F2C /* JFTextViewNoInset.h */; };
+		932777701600305500427F2C /* JFTextViewNoInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 9327776E1600305400427F2C /* JFTextViewNoInset.m */; };
+		932F8DCD15D9E3F7001EB972 /* VTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 932F8DCB15D9E3F7001EB972 /* VTButton.h */; };
+		932F8DCE15D9E3F7001EB972 /* VTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 932F8DCC15D9E3F7001EB972 /* VTButton.m */; };
+		932F8E2815DA227C001EB972 /* PrettyDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 932F8E1D15DA227C001EB972 /* PrettyDrawing.h */; };
+		932F8E2915DA227C001EB972 /* PrettyDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 932F8E1E15DA227C001EB972 /* PrettyDrawing.m */; };
+		932F8E2A15DA227C001EB972 /* PrettyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 932F8E1F15DA227C001EB972 /* PrettyKit.h */; };
+		932F8E2B15DA227C001EB972 /* PrettyNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 932F8E2015DA227C001EB972 /* PrettyNavigationBar.h */; };
+		932F8E2C15DA227C001EB972 /* PrettyNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 932F8E2115DA227C001EB972 /* PrettyNavigationBar.m */; };
+		932F8E2D15DA227C001EB972 /* PrettyShadowPlainTableview.h in Headers */ = {isa = PBXBuildFile; fileRef = 932F8E2215DA227C001EB972 /* PrettyShadowPlainTableview.h */; };
+		932F8E2E15DA227C001EB972 /* PrettyShadowPlainTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = 932F8E2315DA227C001EB972 /* PrettyShadowPlainTableview.m */; };
+		932F8E2F15DA227C001EB972 /* PrettyTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 932F8E2415DA227C001EB972 /* PrettyTabBar.h */; };
+		932F8E3015DA227C001EB972 /* PrettyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 932F8E2515DA227C001EB972 /* PrettyTabBar.m */; };
+		932F8E3115DA227C001EB972 /* PrettyToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 932F8E2615DA227C001EB972 /* PrettyToolbar.h */; };
+		932F8E3215DA227C001EB972 /* PrettyToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 932F8E2715DA227C001EB972 /* PrettyToolbar.m */; };
+		933A0D7716268A4C00553855 /* VTRadioTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 933A0D7516268A4C00553855 /* VTRadioTableCell.h */; };
+		933A0D7816268A4C00553855 /* VTRadioTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 933A0D7616268A4C00553855 /* VTRadioTableCell.m */; };
+		934CBB6816086760000250D4 /* PopViewMultiplePickerTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 934CBB661608675E000250D4 /* PopViewMultiplePickerTableCell.h */; };
+		934CBB6916086760000250D4 /* PopViewMultiplePickerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 934CBB671608675E000250D4 /* PopViewMultiplePickerTableCell.m */; };
+		934D9E4215C631B000604C0F /* VTNewsUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9E4015C631AF00604C0F /* VTNewsUI.h */; };
+		934D9E4315C631B000604C0F /* VTNewsUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9E4115C631AF00604C0F /* VTNewsUI.m */; };
+		934D9E4615C6351C00604C0F /* VTShadowedTableUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9E4415C6351B00604C0F /* VTShadowedTableUI.h */; };
+		934D9E4715C6351C00604C0F /* VTShadowedTableUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9E4515C6351C00604C0F /* VTShadowedTableUI.m */; };
+		934D9E5315C6570B00604C0F /* VTNewsDict.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9E5115C6570B00604C0F /* VTNewsDict.h */; };
+		934D9E5715C65AEF00604C0F /* VTNewsListDict.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9E5515C65AEF00604C0F /* VTNewsListDict.h */; };
+		934D9E5815C65AEF00604C0F /* VTNewsListDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9E5615C65AEF00604C0F /* VTNewsListDict.m */; };
+		934D9E8A15C7C0E500604C0F /* PopListDataPickerTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9E8815C7C0E500604C0F /* PopListDataPickerTableCell.h */; };
+		934D9E8B15C7C0E500604C0F /* PopListDataPickerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9E8915C7C0E500604C0F /* PopListDataPickerTableCell.m */; };
+		934D9E8F15C7C82600604C0F /* VTPopOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9E8D15C7C82600604C0F /* VTPopOptions.h */; };
+		934D9E9015C7C82600604C0F /* VTPopOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9E8E15C7C82600604C0F /* VTPopOptions.m */; };
+		934D9EA315C8FFBE00604C0F /* LeveyPopListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9E9D15C8FFBE00604C0F /* LeveyPopListView.h */; };
+		934D9EA415C8FFBE00604C0F /* LeveyPopListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9E9E15C8FFBE00604C0F /* LeveyPopListView.m */; };
+		934D9EA515C8FFBE00604C0F /* LeveyPopListViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9E9F15C8FFBE00604C0F /* LeveyPopListViewCell.h */; };
+		934D9EA615C8FFBE00604C0F /* LeveyPopListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9EA015C8FFBE00604C0F /* LeveyPopListViewCell.m */; };
+		934D9EA715C8FFBE00604C0F /* VTPopListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9EA115C8FFBE00604C0F /* VTPopListView.h */; };
+		934D9EAB15C9198200604C0F /* PopListDataMultiplePickerTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9EA915C9197B00604C0F /* PopListDataMultiplePickerTableCell.h */; };
+		934D9EAC15C9198200604C0F /* PopListDataMultiplePickerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9EAA15C9197D00604C0F /* PopListDataMultiplePickerTableCell.m */; };
+		934D9EAF15C9251B00604C0F /* PopListBaseTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9EAD15C9250E00604C0F /* PopListBaseTableCell.h */; };
+		934D9EB015C9251B00604C0F /* PopListBaseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9EAE15C9251100604C0F /* PopListBaseTableCell.m */; };
+		934D9EB315CA117F00604C0F /* VTPopRadioListViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9EB115CA117D00604C0F /* VTPopRadioListViewCell.h */; };
+		934D9EB415CA117F00604C0F /* VTPopRadioListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9EB215CA117E00604C0F /* VTPopRadioListViewCell.m */; };
+		934D9EBB15CA1ABF00604C0F /* VTPopCheckListViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9EB915CA1ABD00604C0F /* VTPopCheckListViewCell.h */; };
+		934D9EBC15CA1ABF00604C0F /* VTPopCheckListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9EBA15CA1ABE00604C0F /* VTPopCheckListViewCell.m */; };
+		934D9EBF15CA418700604C0F /* VTPanelUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 934D9EBD15CA418000604C0F /* VTPanelUI.h */; };
+		934D9EC015CA418700604C0F /* VTPanelUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 934D9EBE15CA418200604C0F /* VTPanelUI.m */; };
+		93646EC415C0DA8B00E707D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93646EC315C0DA8B00E707D1 /* Foundation.framework */; };
+		93646F5215C0DCEA00E707D1 /* DateInputTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F4415C0DCEA00E707D1 /* DateInputTableViewCell.h */; };
+		93646F5315C0DCEA00E707D1 /* DateInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F4515C0DCEA00E707D1 /* DateInputTableViewCell.m */; };
+		93646F5415C0DCEA00E707D1 /* StringInputTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F4615C0DCEA00E707D1 /* StringInputTableViewCell.h */; };
+		93646F5515C0DCEA00E707D1 /* StringInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F4715C0DCEA00E707D1 /* StringInputTableViewCell.m */; };
+		93646F5615C0DCEA00E707D1 /* IntegerInputTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F4815C0DCEA00E707D1 /* IntegerInputTableViewCell.h */; };
+		93646F5715C0DCEA00E707D1 /* IntegerInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F4915C0DCEA00E707D1 /* IntegerInputTableViewCell.m */; };
+		93646F5E15C0DCEA00E707D1 /* VTTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F5015C0DCEA00E707D1 /* VTTableViewCell.h */; };
+		93646F5F15C0DCEA00E707D1 /* VTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F5115C0DCEA00E707D1 /* VTTableViewCell.m */; };
+		93646F6615C0DD4E00E707D1 /* VTNavTitleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F6415C0DD4E00E707D1 /* VTNavTitleButton.h */; };
+		93646F6715C0DD4E00E707D1 /* VTNavTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F6515C0DD4E00E707D1 /* VTNavTitleButton.m */; };
+		93646F6915C0DD6400E707D1 /* VTConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F6815C0DD6400E707D1 /* VTConstant.h */; };
+		93646F6D15C0DDB400E707D1 /* VTUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F6B15C0DDB300E707D1 /* VTUtils.m */; };
+		93646F7115C0DDF800E707D1 /* VTCustomCellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F6F15C0DDF800E707D1 /* VTCustomCellBackgroundView.m */; };
+		93646F7415C0DE0E00E707D1 /* UINavigationControllerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F7215C0DE0D00E707D1 /* UINavigationControllerAdditions.h */; };
+		93646F7515C0DE0E00E707D1 /* UINavigationControllerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F7315C0DE0E00E707D1 /* UINavigationControllerAdditions.m */; };
+		93646F7D15C0E13C00E707D1 /* ShadowedTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F7715C0E13C00E707D1 /* ShadowedTableView.h */; };
+		93646F7E15C0E13C00E707D1 /* ShadowedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F7815C0E13C00E707D1 /* ShadowedTableView.m */; };
+		93646F7F15C0E13C00E707D1 /* GradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F7915C0E13C00E707D1 /* GradientView.h */; };
+		93646F8015C0E13C00E707D1 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F7A15C0E13C00E707D1 /* GradientView.m */; };
+		93646F8115C0E13C00E707D1 /* ClearLabelsCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F7B15C0E13C00E707D1 /* ClearLabelsCellView.h */; };
+		93646F8215C0E13C00E707D1 /* ClearLabelsCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F7C15C0E13C00E707D1 /* ClearLabelsCellView.m */; };
+		93646F9915C0E16800E707D1 /* RCSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F8515C0E16800E707D1 /* RCSwitch.h */; };
+		93646F9A15C0E16800E707D1 /* RCSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F8615C0E16800E707D1 /* RCSwitch.m */; };
+		93646F9B15C0E16800E707D1 /* RCSwitchOnOff.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646F8715C0E16800E707D1 /* RCSwitchOnOff.h */; };
+		93646F9C15C0E16800E707D1 /* RCSwitchOnOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646F8815C0E16800E707D1 /* RCSwitchOnOff.m */; };
+		93646FC215C0ED9E00E707D1 /* MMGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646FBC15C0ED9E00E707D1 /* MMGridView.h */; };
+		93646FC315C0ED9E00E707D1 /* MMGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646FBD15C0ED9E00E707D1 /* MMGridView.m */; };
+		93646FC415C0ED9E00E707D1 /* MMGridViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646FBE15C0ED9E00E707D1 /* MMGridViewCell.h */; };
+		93646FC515C0ED9E00E707D1 /* MMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646FBF15C0ED9E00E707D1 /* MMGridViewCell.m */; };
+		93646FC615C0ED9E00E707D1 /* MMGridViewDefaultCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93646FC015C0ED9E00E707D1 /* MMGridViewDefaultCell.h */; };
+		93646FC715C0ED9E00E707D1 /* MMGridViewDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93646FC115C0ED9E00E707D1 /* MMGridViewDefaultCell.m */; };
+		9380C02515D4E93600ACED73 /* BCNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9380C02315D4E93500ACED73 /* BCNavigationController.h */; };
+		9380C02615D4E93600ACED73 /* BCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9380C02415D4E93600ACED73 /* BCNavigationController.m */; };
+		9395CD4D1656417F001EB342 /* TTTAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9395CD4B1656417F001EB342 /* TTTAttributedLabel.h */; };
+		9395CD4E1656417F001EB342 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9395CD4C1656417F001EB342 /* TTTAttributedLabel.m */; };
+		939FFC72162BEC8E00F6C6BA /* ThemeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 939FFC70162BEC8E00F6C6BA /* ThemeManager.h */; };
+		939FFC73162BEC8E00F6C6BA /* ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 939FFC71162BEC8E00F6C6BA /* ThemeManager.m */; };
+		93A301381642089D00FAE095 /* VTPopPickTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A301361642089D00FAE095 /* VTPopPickTextField.h */; };
+		93A301391642089D00FAE095 /* VTPopPickTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A301371642089D00FAE095 /* VTPopPickTextField.m */; };
+		93AA3CD215ECB2EA00888621 /* VTPopCityListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA3CD015ECB2E900888621 /* VTPopCityListView.h */; };
+		93AA3CD315ECB2EA00888621 /* VTPopCityListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3CD115ECB2E900888621 /* VTPopCityListView.m */; };
+		93AA3CD815ECB70C00888621 /* PopListCityPickerTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA3CD615ECB70B00888621 /* PopListCityPickerTableCell.h */; };
+		93AA3CD915ECB70C00888621 /* PopListCityPickerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3CD715ECB70B00888621 /* PopListCityPickerTableCell.m */; };
+		93AA3CDD15ECB98100888621 /* VTPopListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3CDC15ECB98100888621 /* VTPopListView.m */; };
+		93AA3D0715EF29F400888621 /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA3D0515EF29F300888621 /* TPKeyboardAvoidingTableView.h */; };
+		93AA3D0815EF29F400888621 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3D0615EF29F300888621 /* TPKeyboardAvoidingTableView.m */; };
+		93AA3D3215EF304400888621 /* TKGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA3D2C15EF304400888621 /* TKGlobal.h */; };
+		93AA3D3315EF304400888621 /* TKGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3D2D15EF304400888621 /* TKGlobal.m */; };
+		93AA3D3415EF304400888621 /* UIImage+TKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA3D2E15EF304400888621 /* UIImage+TKCategory.h */; };
+		93AA3D3515EF304400888621 /* UIImage+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3D2F15EF304400888621 /* UIImage+TKCategory.m */; };
+		93AA3D3615EF304400888621 /* UIView+TKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA3D3015EF304400888621 /* UIView+TKCategory.h */; };
+		93AA3D3715EF304400888621 /* UIView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3D3115EF304400888621 /* UIView+TKCategory.m */; };
+		93AA3D3A15EF304C00888621 /* TKCalendarMonthView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA3D3815EF304C00888621 /* TKCalendarMonthView.h */; };
+		93AA3D3B15EF304C00888621 /* TKCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3D3915EF304C00888621 /* TKCalendarMonthView.m */; };
+		93AA3D3E15EF305800888621 /* NSDate+TKCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA3D3C15EF305300888621 /* NSDate+TKCategory.h */; };
+		93AA3D3F15EF305800888621 /* NSDate+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3D3D15EF305500888621 /* NSDate+TKCategory.m */; };
+		93AA3D4315EF312000888621 /* TKPopCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3D4115EF312000888621 /* TKPopCalendarView.m */; };
+		93AA3D4615EF332D00888621 /* PopTKCalendarPickerTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA3D4415EF332A00888621 /* PopTKCalendarPickerTableCell.h */; };
+		93AA3D4715EF332D00888621 /* PopTKCalendarPickerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3D4515EF332C00888621 /* PopTKCalendarPickerTableCell.m */; };
+		93AA3D4915EF409500888621 /* TKPopCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA3D4815EF409400888621 /* TKPopCalendarView.h */; };
+		93AA3D7915F0652D00888621 /* PopPeriodPickerTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AA3D7715F0652D00888621 /* PopPeriodPickerTableCell.h */; };
+		93AA3D7A15F0652D00888621 /* PopPeriodPickerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AA3D7815F0652D00888621 /* PopPeriodPickerTableCell.m */; };
+		93E6536515D1098700C2EFF4 /* VTDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6536415D1098700C2EFF4 /* VTDelegate.h */; };
+		93E6536715D10A1900C2EFF4 /* VTNewsDict.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6536615D10A1900C2EFF4 /* VTNewsDict.m */; };
+		93E6536915D10A9200C2EFF4 /* VTUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6536815D10A9200C2EFF4 /* VTUI.m */; };
+		93E6537315D10F9700C2EFF4 /* VTRotateMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6536F15D10F9700C2EFF4 /* VTRotateMenu.h */; };
+		93E6537415D10F9700C2EFF4 /* VTRotateMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6537015D10F9700C2EFF4 /* VTRotateMenu.m */; };
+		93E6537515D10F9700C2EFF4 /* VTRotateMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6537115D10F9700C2EFF4 /* VTRotateMenuView.h */; };
+		93E6537615D10F9700C2EFF4 /* VTRotateMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6537215D10F9700C2EFF4 /* VTRotateMenuView.m */; };
+		93E6537A15D10FD300C2EFF4 /* VTRotateMenuUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6537815D10FD300C2EFF4 /* VTRotateMenuUI.h */; };
+		93E6537B15D10FD300C2EFF4 /* VTRotateMenuUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6537915D10FD300C2EFF4 /* VTRotateMenuUI.m */; };
+		93E6538D15D1115700C2EFF4 /* VTUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6538C15D1115600C2EFF4 /* VTUtils.h */; };
+		93E6538F15D1118000C2EFF4 /* VTCustomCellBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6538E15D1117F00C2EFF4 /* VTCustomCellBackgroundView.h */; };
+		93E653FD15D23BD200C2EFF4 /* VTPanelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E653FB15D23BD200C2EFF4 /* VTPanelView.h */; };
+		93E653FE15D23BD200C2EFF4 /* VTPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E653FC15D23BD200C2EFF4 /* VTPanelView.m */; };
+		93E6541A15D2585F00C2EFF4 /* BCTab.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6541215D2585F00C2EFF4 /* BCTab.h */; };
+		93E6541B15D2585F00C2EFF4 /* BCTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6541315D2585F00C2EFF4 /* BCTab.m */; };
+		93E6541C15D2585F00C2EFF4 /* BCTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6541415D2585F00C2EFF4 /* BCTabBar.h */; };
+		93E6541D15D2585F00C2EFF4 /* BCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6541515D2585F00C2EFF4 /* BCTabBar.m */; };
+		93E6541E15D2585F00C2EFF4 /* BCTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6541615D2585F00C2EFF4 /* BCTabBarController.h */; };
+		93E6541F15D2585F00C2EFF4 /* BCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6541715D2585F00C2EFF4 /* BCTabBarController.m */; };
+		93E6542015D2585F00C2EFF4 /* BCTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E6541815D2585F00C2EFF4 /* BCTabBarView.h */; };
+		93E6542115D2585F00C2EFF4 /* BCTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6541915D2585F00C2EFF4 /* BCTabBarView.m */; };
+		93F112F215F077C200D9C045 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F112F015F077C200D9C045 /* CKCalendarView.m */; };
+		93F112F315F077C200D9C045 /* CKCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F112F115F077C200D9C045 /* CKCalendarView.h */; };
+		93F112F615F0780A00D9C045 /* CKCalendarPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F112F415F0780A00D9C045 /* CKCalendarPopView.h */; };
+		93F112F715F0780A00D9C045 /* CKCalendarPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F112F515F0780A00D9C045 /* CKCalendarPopView.m */; };
+		93F112FA15F07C9800D9C045 /* PopCKCalendarPickTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F112F815F07C9800D9C045 /* PopCKCalendarPickTableCell.h */; };
+		93F112FB15F07C9800D9C045 /* PopCKCalendarPickTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F112F915F07C9800D9C045 /* PopCKCalendarPickTableCell.m */; };
+		93F112FE15F07DCB00D9C045 /* PopCKCalendarPeriodPickTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F112FC15F07DCB00D9C045 /* PopCKCalendarPeriodPickTableCell.h */; };
+		93F112FF15F07DCB00D9C045 /* PopCKCalendarPeriodPickTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F112FD15F07DCB00D9C045 /* PopCKCalendarPeriodPickTableCell.m */; };
+		93F1130415F086E000D9C045 /* PopBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F1130215F086E000D9C045 /* PopBaseView.h */; };
+		93F1130515F086E000D9C045 /* PopBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F1130315F086E000D9C045 /* PopBaseView.m */; };
+		93F1130815F0889E00D9C045 /* PopViewTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F1130615F0889D00D9C045 /* PopViewTableCell.h */; };
+		93F1130915F0889E00D9C045 /* PopViewTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F1130715F0889D00D9C045 /* PopViewTableCell.m */; };
+		93F38CB115C22E1500BADCEA /* VTTableViewMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F38CAE15C22E1400BADCEA /* VTTableViewMenu.h */; };
+		93F38CB215C22E1500BADCEA /* VTTableViewMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F38CAF15C22E1400BADCEA /* VTTableViewMenu.m */; };
+		93F38CD315C2640100BADCEA /* VTComplexMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F38CD115C2640000BADCEA /* VTComplexMenuView.h */; };
+		93F38CD415C2640100BADCEA /* VTComplexMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F38CD215C2640000BADCEA /* VTComplexMenuView.m */; };
+		93F38CD815C274A100BADCEA /* VTUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F38CD615C274A000BADCEA /* VTUI.h */; };
+		93F38CDC15C274CF00BADCEA /* VTTableUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F38CDA15C274CE00BADCEA /* VTTableUI.h */; };
+		93F38CDD15C274CF00BADCEA /* VTTableUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F38CDB15C274CE00BADCEA /* VTTableUI.m */; };
+		93F38CE315C27AE800BADCEA /* PanelIndexPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F38CDF15C27AE800BADCEA /* PanelIndexPath.h */; };
+		93F38CE415C27AE800BADCEA /* PanelIndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F38CE015C27AE800BADCEA /* PanelIndexPath.m */; };
+		93F38CE515C27AE800BADCEA /* PanelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F38CE115C27AE800BADCEA /* PanelView.h */; };
+		93F38CE615C27AE800BADCEA /* PanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F38CE215C27AE800BADCEA /* PanelView.m */; };
+		93F38CEC15C27D0100BADCEA /* SVSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F38CE815C27D0100BADCEA /* SVSegmentedControl.h */; };
+		93F38CED15C27D0100BADCEA /* SVSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F38CE915C27D0100BADCEA /* SVSegmentedControl.m */; };
+		93F38CEE15C27D0100BADCEA /* SVSegmentedThumb.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F38CEA15C27D0100BADCEA /* SVSegmentedThumb.h */; };
+		93F38CEF15C27D0100BADCEA /* SVSegmentedThumb.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F38CEB15C27D0100BADCEA /* SVSegmentedThumb.m */; };
+		93F38CFC15C2857100BADCEA /* PanelsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F38CFA15C2857100BADCEA /* PanelsViewController.h */; };
+		93F38CFD15C2857100BADCEA /* PanelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F38CFB15C2857100BADCEA /* PanelsViewController.m */; };
+		93F38D0115C2865200BADCEA /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F38CFF15C2865200BADCEA /* TPKeyboardAvoidingScrollView.h */; };
+		93F38D0215C2865200BADCEA /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F38D0015C2865200BADCEA /* TPKeyboardAvoidingScrollView.m */; };
+		93F9E0591615768D00EEDD85 /* CNTAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 93F9E0571615768D00EEDD85 /* CNTAlert.h */; };
+		93F9E05A1615768D00EEDD85 /* CNTAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F9E0581615768D00EEDD85 /* CNTAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		931C681715C0FF510002C096 /* VitMobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VitMobile.h; sourceTree = "<group>"; };
+		931C683315C10D430002C096 /* VTGridMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTGridMenu.h; sourceTree = "<group>"; };
+		931C683415C10D430002C096 /* VTGridMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTGridMenu.m; sourceTree = "<group>"; };
+		931C683815C110C80002C096 /* MMGridViewVitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGridViewVitCell.h; sourceTree = "<group>"; };
+		931C683915C110C80002C096 /* MMGridViewVitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGridViewVitCell.m; sourceTree = "<group>"; };
+		931D0DE816046AB200C8A36B /* CNTTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNTTabController.h; sourceTree = "<group>"; };
+		931D0DE916046AB300C8A36B /* CNTTabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNTTabController.m; sourceTree = "<group>"; };
+		93254D311613074000F40D3D /* SBTableAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTableAlert.h; sourceTree = "<group>"; };
+		93254D321613074000F40D3D /* SBTableAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTableAlert.m; sourceTree = "<group>"; };
+		93254D3D1613E64500F40D3D /* PopSBTableAlertTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopSBTableAlertTableCell.h; sourceTree = "<group>"; };
+		93254D3E1613E64600F40D3D /* PopSBTableAlertTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopSBTableAlertTableCell.m; sourceTree = "<group>"; };
+		93254D411613FC8900F40D3D /* CKCalendarAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarAlert.h; sourceTree = "<group>"; };
+		93254D421613FC8900F40D3D /* CKCalendarAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarAlert.m; sourceTree = "<group>"; };
+		932777681600231C00427F2C /* TextViewInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewInputTableViewCell.h; sourceTree = "<group>"; };
+		932777691600231C00427F2C /* TextViewInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewInputTableViewCell.m; sourceTree = "<group>"; };
+		9327776D1600305300427F2C /* JFTextViewNoInset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTextViewNoInset.h; sourceTree = "<group>"; };
+		9327776E1600305400427F2C /* JFTextViewNoInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTextViewNoInset.m; sourceTree = "<group>"; };
+		932F8DCB15D9E3F7001EB972 /* VTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTButton.h; sourceTree = "<group>"; };
+		932F8DCC15D9E3F7001EB972 /* VTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTButton.m; sourceTree = "<group>"; };
+		932F8E1D15DA227C001EB972 /* PrettyDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyDrawing.h; sourceTree = "<group>"; };
+		932F8E1E15DA227C001EB972 /* PrettyDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyDrawing.m; sourceTree = "<group>"; };
+		932F8E1F15DA227C001EB972 /* PrettyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyKit.h; sourceTree = "<group>"; };
+		932F8E2015DA227C001EB972 /* PrettyNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyNavigationBar.h; sourceTree = "<group>"; };
+		932F8E2115DA227C001EB972 /* PrettyNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyNavigationBar.m; sourceTree = "<group>"; };
+		932F8E2215DA227C001EB972 /* PrettyShadowPlainTableview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyShadowPlainTableview.h; sourceTree = "<group>"; };
+		932F8E2315DA227C001EB972 /* PrettyShadowPlainTableview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyShadowPlainTableview.m; sourceTree = "<group>"; };
+		932F8E2415DA227C001EB972 /* PrettyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyTabBar.h; sourceTree = "<group>"; };
+		932F8E2515DA227C001EB972 /* PrettyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyTabBar.m; sourceTree = "<group>"; };
+		932F8E2615DA227C001EB972 /* PrettyToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyToolbar.h; sourceTree = "<group>"; };
+		932F8E2715DA227C001EB972 /* PrettyToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrettyToolbar.m; sourceTree = "<group>"; };
+		933A0D7516268A4C00553855 /* VTRadioTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRadioTableCell.h; sourceTree = "<group>"; };
+		933A0D7616268A4C00553855 /* VTRadioTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRadioTableCell.m; sourceTree = "<group>"; };
+		934CBB661608675E000250D4 /* PopViewMultiplePickerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewMultiplePickerTableCell.h; sourceTree = "<group>"; };
+		934CBB671608675E000250D4 /* PopViewMultiplePickerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewMultiplePickerTableCell.m; sourceTree = "<group>"; };
+		934D9E4015C631AF00604C0F /* VTNewsUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTNewsUI.h; sourceTree = "<group>"; };
+		934D9E4115C631AF00604C0F /* VTNewsUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTNewsUI.m; sourceTree = "<group>"; };
+		934D9E4415C6351B00604C0F /* VTShadowedTableUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTShadowedTableUI.h; sourceTree = "<group>"; };
+		934D9E4515C6351C00604C0F /* VTShadowedTableUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTShadowedTableUI.m; sourceTree = "<group>"; };
+		934D9E5115C6570B00604C0F /* VTNewsDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTNewsDict.h; sourceTree = "<group>"; };
+		934D9E5515C65AEF00604C0F /* VTNewsListDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTNewsListDict.h; sourceTree = "<group>"; };
+		934D9E5615C65AEF00604C0F /* VTNewsListDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTNewsListDict.m; sourceTree = "<group>"; };
+		934D9E8815C7C0E500604C0F /* PopListDataPickerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopListDataPickerTableCell.h; sourceTree = "<group>"; };
+		934D9E8915C7C0E500604C0F /* PopListDataPickerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopListDataPickerTableCell.m; sourceTree = "<group>"; };
+		934D9E8D15C7C82600604C0F /* VTPopOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPopOptions.h; sourceTree = "<group>"; };
+		934D9E8E15C7C82600604C0F /* VTPopOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPopOptions.m; sourceTree = "<group>"; };
+		934D9E9D15C8FFBE00604C0F /* LeveyPopListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyPopListView.h; sourceTree = "<group>"; };
+		934D9E9E15C8FFBE00604C0F /* LeveyPopListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyPopListView.m; sourceTree = "<group>"; };
+		934D9E9F15C8FFBE00604C0F /* LeveyPopListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeveyPopListViewCell.h; sourceTree = "<group>"; };
+		934D9EA015C8FFBE00604C0F /* LeveyPopListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeveyPopListViewCell.m; sourceTree = "<group>"; };
+		934D9EA115C8FFBE00604C0F /* VTPopListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPopListView.h; sourceTree = "<group>"; };
+		934D9EA915C9197B00604C0F /* PopListDataMultiplePickerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopListDataMultiplePickerTableCell.h; sourceTree = "<group>"; };
+		934D9EAA15C9197D00604C0F /* PopListDataMultiplePickerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopListDataMultiplePickerTableCell.m; sourceTree = "<group>"; };
+		934D9EAD15C9250E00604C0F /* PopListBaseTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopListBaseTableCell.h; sourceTree = "<group>"; };
+		934D9EAE15C9251100604C0F /* PopListBaseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopListBaseTableCell.m; sourceTree = "<group>"; };
+		934D9EB115CA117D00604C0F /* VTPopRadioListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPopRadioListViewCell.h; sourceTree = "<group>"; };
+		934D9EB215CA117E00604C0F /* VTPopRadioListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPopRadioListViewCell.m; sourceTree = "<group>"; };
+		934D9EB915CA1ABD00604C0F /* VTPopCheckListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPopCheckListViewCell.h; sourceTree = "<group>"; };
+		934D9EBA15CA1ABE00604C0F /* VTPopCheckListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPopCheckListViewCell.m; sourceTree = "<group>"; };
+		934D9EBD15CA418000604C0F /* VTPanelUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPanelUI.h; sourceTree = "<group>"; };
+		934D9EBE15CA418200604C0F /* VTPanelUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPanelUI.m; sourceTree = "<group>"; };
+		93646EC015C0DA8B00E707D1 /* libVitMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVitMobile.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93646EC315C0DA8B00E707D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93646EC715C0DA8B00E707D1 /* VitMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VitMobile-Prefix.pch"; sourceTree = "<group>"; };
+		93646EDB15C0DA8B00E707D1 /* VitMobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VitMobileTests-Info.plist"; sourceTree = "<group>"; };
+		93646EDD15C0DA8B00E707D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93646F4415C0DCEA00E707D1 /* DateInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateInputTableViewCell.h; sourceTree = "<group>"; };
+		93646F4515C0DCEA00E707D1 /* DateInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateInputTableViewCell.m; sourceTree = "<group>"; };
+		93646F4615C0DCEA00E707D1 /* StringInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringInputTableViewCell.h; sourceTree = "<group>"; };
+		93646F4715C0DCEA00E707D1 /* StringInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringInputTableViewCell.m; sourceTree = "<group>"; };
+		93646F4815C0DCEA00E707D1 /* IntegerInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerInputTableViewCell.h; sourceTree = "<group>"; };
+		93646F4915C0DCEA00E707D1 /* IntegerInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegerInputTableViewCell.m; sourceTree = "<group>"; };
+		93646F5015C0DCEA00E707D1 /* VTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTableViewCell.h; sourceTree = "<group>"; };
+		93646F5115C0DCEA00E707D1 /* VTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTableViewCell.m; sourceTree = "<group>"; };
+		93646F6415C0DD4E00E707D1 /* VTNavTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTNavTitleButton.h; sourceTree = "<group>"; };
+		93646F6515C0DD4E00E707D1 /* VTNavTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTNavTitleButton.m; sourceTree = "<group>"; };
+		93646F6815C0DD6400E707D1 /* VTConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTConstant.h; sourceTree = "<group>"; };
+		93646F6B15C0DDB300E707D1 /* VTUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTUtils.m; sourceTree = "<group>"; };
+		93646F6F15C0DDF800E707D1 /* VTCustomCellBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTCustomCellBackgroundView.m; sourceTree = "<group>"; };
+		93646F7215C0DE0D00E707D1 /* UINavigationControllerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavigationControllerAdditions.h; sourceTree = "<group>"; };
+		93646F7315C0DE0E00E707D1 /* UINavigationControllerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationControllerAdditions.m; sourceTree = "<group>"; };
+		93646F7715C0E13C00E707D1 /* ShadowedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowedTableView.h; sourceTree = "<group>"; };
+		93646F7815C0E13C00E707D1 /* ShadowedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowedTableView.m; sourceTree = "<group>"; };
+		93646F7915C0E13C00E707D1 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		93646F7A15C0E13C00E707D1 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		93646F7B15C0E13C00E707D1 /* ClearLabelsCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClearLabelsCellView.h; sourceTree = "<group>"; };
+		93646F7C15C0E13C00E707D1 /* ClearLabelsCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClearLabelsCellView.m; sourceTree = "<group>"; };
+		93646F8515C0E16800E707D1 /* RCSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSwitch.h; sourceTree = "<group>"; };
+		93646F8615C0E16800E707D1 /* RCSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSwitch.m; sourceTree = "<group>"; };
+		93646F8715C0E16800E707D1 /* RCSwitchOnOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSwitchOnOff.h; sourceTree = "<group>"; };
+		93646F8815C0E16800E707D1 /* RCSwitchOnOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSwitchOnOff.m; sourceTree = "<group>"; };
+		93646F8915C0E16800E707D1 /* btn_slider_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_slider_off.png; sourceTree = "<group>"; };
+		93646F8A15C0E16800E707D1 /* btn_slider_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_slider_on.png; sourceTree = "<group>"; };
+		93646F8B15C0E16800E707D1 /* btn_slider_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_slider_thumb.png; sourceTree = "<group>"; };
+		93646F8C15C0E16800E707D1 /* btn_slider_thumb_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_slider_thumb_pressed.png; sourceTree = "<group>"; };
+		93646F8D15C0E16800E707D1 /* btn_slider_track_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_slider_track_pressed.png; sourceTree = "<group>"; };
+		93646F8E15C0E16800E707D1 /* btn_slider_track.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_slider_track.png; sourceTree = "<group>"; };
+		93646F8F15C0E16800E707D1 /* btn_slider_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_slider_off@2x.png"; sourceTree = "<group>"; };
+		93646F9015C0E16800E707D1 /* btn_slider_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_slider_on@2x.png"; sourceTree = "<group>"; };
+		93646F9115C0E16800E707D1 /* btn_slider_thumb_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_slider_thumb_pressed@2x.png"; sourceTree = "<group>"; };
+		93646F9215C0E16800E707D1 /* btn_slider_thumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_slider_thumb@2x.png"; sourceTree = "<group>"; };
+		93646F9315C0E16800E707D1 /* btn_slider_track_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_slider_track_pressed@2x.png"; sourceTree = "<group>"; };
+		93646F9415C0E16800E707D1 /* btn_slider_track@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_slider_track@2x.png"; sourceTree = "<group>"; };
+		93646F9515C0E16800E707D1 /* btn_slider_international_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_slider_international_off.png; sourceTree = "<group>"; };
+		93646F9615C0E16800E707D1 /* btn_slider_international_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_slider_international_off@2x.png"; sourceTree = "<group>"; };
+		93646F9715C0E16800E707D1 /* btn_slider_international_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_slider_international_on.png; sourceTree = "<group>"; };
+		93646F9815C0E16800E707D1 /* btn_slider_international_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_slider_international_on@2x.png"; sourceTree = "<group>"; };
+		93646FBC15C0ED9E00E707D1 /* MMGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGridView.h; sourceTree = "<group>"; };
+		93646FBD15C0ED9E00E707D1 /* MMGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGridView.m; sourceTree = "<group>"; };
+		93646FBE15C0ED9E00E707D1 /* MMGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGridViewCell.h; sourceTree = "<group>"; };
+		93646FBF15C0ED9E00E707D1 /* MMGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGridViewCell.m; sourceTree = "<group>"; };
+		93646FC015C0ED9E00E707D1 /* MMGridViewDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGridViewDefaultCell.h; sourceTree = "<group>"; };
+		93646FC115C0ED9E00E707D1 /* MMGridViewDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGridViewDefaultCell.m; sourceTree = "<group>"; };
+		9380C02315D4E93500ACED73 /* BCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCNavigationController.h; sourceTree = "<group>"; };
+		9380C02415D4E93600ACED73 /* BCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCNavigationController.m; sourceTree = "<group>"; };
+		9395CD1516563466001EB342 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		9395CD18165634C3001EB342 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9395CD1A1656354C001EB342 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9395CD4B1656417F001EB342 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		9395CD4C1656417F001EB342 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		939FFC70162BEC8E00F6C6BA /* ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeManager.h; sourceTree = "<group>"; };
+		939FFC71162BEC8E00F6C6BA /* ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeManager.m; sourceTree = "<group>"; };
+		93A301361642089D00FAE095 /* VTPopPickTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPopPickTextField.h; sourceTree = "<group>"; };
+		93A301371642089D00FAE095 /* VTPopPickTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPopPickTextField.m; sourceTree = "<group>"; };
+		93AA3CD015ECB2E900888621 /* VTPopCityListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPopCityListView.h; sourceTree = "<group>"; };
+		93AA3CD115ECB2E900888621 /* VTPopCityListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPopCityListView.m; sourceTree = "<group>"; };
+		93AA3CD515ECB31800888621 /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
+		93AA3CD615ECB70B00888621 /* PopListCityPickerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopListCityPickerTableCell.h; sourceTree = "<group>"; };
+		93AA3CD715ECB70B00888621 /* PopListCityPickerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopListCityPickerTableCell.m; sourceTree = "<group>"; };
+		93AA3CDC15ECB98100888621 /* VTPopListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPopListView.m; sourceTree = "<group>"; };
+		93AA3D0515EF29F300888621 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		93AA3D0615EF29F300888621 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		93AA3D2C15EF304400888621 /* TKGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKGlobal.h; sourceTree = "<group>"; };
+		93AA3D2D15EF304400888621 /* TKGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKGlobal.m; sourceTree = "<group>"; };
+		93AA3D2E15EF304400888621 /* UIImage+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TKCategory.h"; sourceTree = "<group>"; };
+		93AA3D2F15EF304400888621 /* UIImage+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TKCategory.m"; sourceTree = "<group>"; };
+		93AA3D3015EF304400888621 /* UIView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TKCategory.h"; sourceTree = "<group>"; };
+		93AA3D3115EF304400888621 /* UIView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKCategory.m"; sourceTree = "<group>"; };
+		93AA3D3815EF304C00888621 /* TKCalendarMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCalendarMonthView.h; sourceTree = "<group>"; };
+		93AA3D3915EF304C00888621 /* TKCalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCalendarMonthView.m; sourceTree = "<group>"; };
+		93AA3D3C15EF305300888621 /* NSDate+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TKCategory.h"; sourceTree = "<group>"; };
+		93AA3D3D15EF305500888621 /* NSDate+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TKCategory.m"; sourceTree = "<group>"; };
+		93AA3D4115EF312000888621 /* TKPopCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKPopCalendarView.m; sourceTree = "<group>"; };
+		93AA3D4415EF332A00888621 /* PopTKCalendarPickerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTKCalendarPickerTableCell.h; sourceTree = "<group>"; };
+		93AA3D4515EF332C00888621 /* PopTKCalendarPickerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTKCalendarPickerTableCell.m; sourceTree = "<group>"; };
+		93AA3D4815EF409400888621 /* TKPopCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKPopCalendarView.h; sourceTree = "<group>"; };
+		93AA3D7715F0652D00888621 /* PopPeriodPickerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopPeriodPickerTableCell.h; sourceTree = "<group>"; };
+		93AA3D7815F0652D00888621 /* PopPeriodPickerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopPeriodPickerTableCell.m; sourceTree = "<group>"; };
+		93E6536415D1098700C2EFF4 /* VTDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTDelegate.h; sourceTree = "<group>"; };
+		93E6536615D10A1900C2EFF4 /* VTNewsDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTNewsDict.m; sourceTree = "<group>"; };
+		93E6536815D10A9200C2EFF4 /* VTUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTUI.m; sourceTree = "<group>"; };
+		93E6536F15D10F9700C2EFF4 /* VTRotateMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRotateMenu.h; sourceTree = "<group>"; };
+		93E6537015D10F9700C2EFF4 /* VTRotateMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRotateMenu.m; sourceTree = "<group>"; };
+		93E6537115D10F9700C2EFF4 /* VTRotateMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRotateMenuView.h; sourceTree = "<group>"; };
+		93E6537215D10F9700C2EFF4 /* VTRotateMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRotateMenuView.m; sourceTree = "<group>"; };
+		93E6537815D10FD300C2EFF4 /* VTRotateMenuUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTRotateMenuUI.h; sourceTree = "<group>"; };
+		93E6537915D10FD300C2EFF4 /* VTRotateMenuUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTRotateMenuUI.m; sourceTree = "<group>"; };
+		93E6538C15D1115600C2EFF4 /* VTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTUtils.h; sourceTree = "<group>"; };
+		93E6538E15D1117F00C2EFF4 /* VTCustomCellBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTCustomCellBackgroundView.h; sourceTree = "<group>"; };
+		93E653FB15D23BD200C2EFF4 /* VTPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPanelView.h; sourceTree = "<group>"; };
+		93E653FC15D23BD200C2EFF4 /* VTPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPanelView.m; sourceTree = "<group>"; };
+		93E6541215D2585F00C2EFF4 /* BCTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTab.h; sourceTree = "<group>"; };
+		93E6541315D2585F00C2EFF4 /* BCTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTab.m; sourceTree = "<group>"; };
+		93E6541415D2585F00C2EFF4 /* BCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTabBar.h; sourceTree = "<group>"; };
+		93E6541515D2585F00C2EFF4 /* BCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTabBar.m; sourceTree = "<group>"; };
+		93E6541615D2585F00C2EFF4 /* BCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTabBarController.h; sourceTree = "<group>"; };
+		93E6541715D2585F00C2EFF4 /* BCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTabBarController.m; sourceTree = "<group>"; };
+		93E6541815D2585F00C2EFF4 /* BCTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCTabBarView.h; sourceTree = "<group>"; };
+		93E6541915D2585F00C2EFF4 /* BCTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCTabBarView.m; sourceTree = "<group>"; };
+		93F112F015F077C200D9C045 /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarView.m; sourceTree = "<group>"; };
+		93F112F115F077C200D9C045 /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarView.h; sourceTree = "<group>"; };
+		93F112F415F0780A00D9C045 /* CKCalendarPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarPopView.h; sourceTree = "<group>"; };
+		93F112F515F0780A00D9C045 /* CKCalendarPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarPopView.m; sourceTree = "<group>"; };
+		93F112F815F07C9800D9C045 /* PopCKCalendarPickTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopCKCalendarPickTableCell.h; sourceTree = "<group>"; };
+		93F112F915F07C9800D9C045 /* PopCKCalendarPickTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopCKCalendarPickTableCell.m; sourceTree = "<group>"; };
+		93F112FC15F07DCB00D9C045 /* PopCKCalendarPeriodPickTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopCKCalendarPeriodPickTableCell.h; sourceTree = "<group>"; };
+		93F112FD15F07DCB00D9C045 /* PopCKCalendarPeriodPickTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopCKCalendarPeriodPickTableCell.m; sourceTree = "<group>"; };
+		93F1130215F086E000D9C045 /* PopBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopBaseView.h; sourceTree = "<group>"; };
+		93F1130315F086E000D9C045 /* PopBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopBaseView.m; sourceTree = "<group>"; };
+		93F1130615F0889D00D9C045 /* PopViewTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewTableCell.h; sourceTree = "<group>"; };
+		93F1130715F0889D00D9C045 /* PopViewTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewTableCell.m; sourceTree = "<group>"; };
+		93F38CAE15C22E1400BADCEA /* VTTableViewMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTableViewMenu.h; sourceTree = "<group>"; };
+		93F38CAF15C22E1400BADCEA /* VTTableViewMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTableViewMenu.m; sourceTree = "<group>"; };
+		93F38CD115C2640000BADCEA /* VTComplexMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTComplexMenuView.h; sourceTree = "<group>"; };
+		93F38CD215C2640000BADCEA /* VTComplexMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTComplexMenuView.m; sourceTree = "<group>"; };
+		93F38CD615C274A000BADCEA /* VTUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTUI.h; sourceTree = "<group>"; };
+		93F38CDA15C274CE00BADCEA /* VTTableUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTTableUI.h; sourceTree = "<group>"; };
+		93F38CDB15C274CE00BADCEA /* VTTableUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTableUI.m; sourceTree = "<group>"; };
+		93F38CDF15C27AE800BADCEA /* PanelIndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelIndexPath.h; sourceTree = "<group>"; };
+		93F38CE015C27AE800BADCEA /* PanelIndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelIndexPath.m; sourceTree = "<group>"; };
+		93F38CE115C27AE800BADCEA /* PanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelView.h; sourceTree = "<group>"; };
+		93F38CE215C27AE800BADCEA /* PanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelView.m; sourceTree = "<group>"; };
+		93F38CE815C27D0100BADCEA /* SVSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSegmentedControl.h; sourceTree = "<group>"; };
+		93F38CE915C27D0100BADCEA /* SVSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSegmentedControl.m; sourceTree = "<group>"; };
+		93F38CEA15C27D0100BADCEA /* SVSegmentedThumb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVSegmentedThumb.h; sourceTree = "<group>"; };
+		93F38CEB15C27D0100BADCEA /* SVSegmentedThumb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVSegmentedThumb.m; sourceTree = "<group>"; };
+		93F38CFA15C2857100BADCEA /* PanelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelsViewController.h; sourceTree = "<group>"; };
+		93F38CFB15C2857100BADCEA /* PanelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelsViewController.m; sourceTree = "<group>"; };
+		93F38CFF15C2865200BADCEA /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		93F38D0015C2865200BADCEA /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		93F9E0571615768D00EEDD85 /* CNTAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNTAlert.h; sourceTree = "<group>"; };
+		93F9E0581615768D00EEDD85 /* CNTAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNTAlert.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93646EBD15C0DA8B00E707D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93646EC415C0DA8B00E707D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		931C683215C10D120002C096 /* VitController */ = {
+			isa = PBXGroup;
+			children = (
+				934D9EBD15CA418000604C0F /* VTPanelUI.h */,
+				934D9EBE15CA418200604C0F /* VTPanelUI.m */,
+				934D9E4015C631AF00604C0F /* VTNewsUI.h */,
+				934D9E4115C631AF00604C0F /* VTNewsUI.m */,
+				931C683315C10D430002C096 /* VTGridMenu.h */,
+				931C683415C10D430002C096 /* VTGridMenu.m */,
+				93F38CAE15C22E1400BADCEA /* VTTableViewMenu.h */,
+				93F38CAF15C22E1400BADCEA /* VTTableViewMenu.m */,
+				93F38CD115C2640000BADCEA /* VTComplexMenuView.h */,
+				93F38CD215C2640000BADCEA /* VTComplexMenuView.m */,
+				93F38CD615C274A000BADCEA /* VTUI.h */,
+				93E6536815D10A9200C2EFF4 /* VTUI.m */,
+				93F38CDA15C274CE00BADCEA /* VTTableUI.h */,
+				93F38CDB15C274CE00BADCEA /* VTTableUI.m */,
+				934D9E4415C6351B00604C0F /* VTShadowedTableUI.h */,
+				934D9E4515C6351C00604C0F /* VTShadowedTableUI.m */,
+			);
+			name = VitController;
+			sourceTree = "<group>";
+		};
+		932F8E0615DA223E001EB972 /* Pretty Kit */ = {
+			isa = PBXGroup;
+			children = (
+				932F8E1D15DA227C001EB972 /* PrettyDrawing.h */,
+				932F8E1E15DA227C001EB972 /* PrettyDrawing.m */,
+				932F8E1F15DA227C001EB972 /* PrettyKit.h */,
+				932F8E2015DA227C001EB972 /* PrettyNavigationBar.h */,
+				932F8E2115DA227C001EB972 /* PrettyNavigationBar.m */,
+				932F8E2215DA227C001EB972 /* PrettyShadowPlainTableview.h */,
+				932F8E2315DA227C001EB972 /* PrettyShadowPlainTableview.m */,
+				932F8E2415DA227C001EB972 /* PrettyTabBar.h */,
+				932F8E2515DA227C001EB972 /* PrettyTabBar.m */,
+				932F8E2615DA227C001EB972 /* PrettyToolbar.h */,
+				932F8E2715DA227C001EB972 /* PrettyToolbar.m */,
+			);
+			name = "Pretty Kit";
+			sourceTree = "<group>";
+		};
+		932F8F7D15DDE9E8001EB972 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		934D9E5015C656BC00604C0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				934D9E5115C6570B00604C0F /* VTNewsDict.h */,
+				93E6536615D10A1900C2EFF4 /* VTNewsDict.m */,
+				934D9E5515C65AEF00604C0F /* VTNewsListDict.h */,
+				934D9E5615C65AEF00604C0F /* VTNewsListDict.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		934D9E7B15C7BF0C00604C0F /* PopListView */ = {
+			isa = PBXGroup;
+			children = (
+				93254D311613074000F40D3D /* SBTableAlert.h */,
+				93254D321613074000F40D3D /* SBTableAlert.m */,
+				934D9E9D15C8FFBE00604C0F /* LeveyPopListView.h */,
+				934D9E9E15C8FFBE00604C0F /* LeveyPopListView.m */,
+				934D9E9F15C8FFBE00604C0F /* LeveyPopListViewCell.h */,
+				934D9EA015C8FFBE00604C0F /* LeveyPopListViewCell.m */,
+				93AA3CD515ECB31800888621 /* citydict.plist */,
+				93AA3CD015ECB2E900888621 /* VTPopCityListView.h */,
+				93AA3CD115ECB2E900888621 /* VTPopCityListView.m */,
+				934D9EA115C8FFBE00604C0F /* VTPopListView.h */,
+				93AA3CDC15ECB98100888621 /* VTPopListView.m */,
+				934D9EB915CA1ABD00604C0F /* VTPopCheckListViewCell.h */,
+				934D9EBA15CA1ABE00604C0F /* VTPopCheckListViewCell.m */,
+				934D9EB115CA117D00604C0F /* VTPopRadioListViewCell.h */,
+				934D9EB215CA117E00604C0F /* VTPopRadioListViewCell.m */,
+			);
+			name = PopListView;
+			sourceTree = "<group>";
+		};
+		934D9E8C15C7C7FF00604C0F /* popOptions */ = {
+			isa = PBXGroup;
+			children = (
+				934D9E8D15C7C82600604C0F /* VTPopOptions.h */,
+				934D9E8E15C7C82600604C0F /* VTPopOptions.m */,
+			);
+			name = popOptions;
+			sourceTree = "<group>";
+		};
+		93646EB515C0DA8B00E707D1 = {
+			isa = PBXGroup;
+			children = (
+				9395CD1A1656354C001EB342 /* UIKit.framework */,
+				9395CD18165634C3001EB342 /* CoreGraphics.framework */,
+				9395CD1516563466001EB342 /* CoreText.framework */,
+				93646EC515C0DA8B00E707D1 /* VitMobile */,
+				93646ED915C0DA8B00E707D1 /* VitMobileTests */,
+				93646EC215C0DA8B00E707D1 /* Frameworks */,
+				93646EC115C0DA8B00E707D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93646EC115C0DA8B00E707D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93646EC015C0DA8B00E707D1 /* libVitMobile.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93646EC215C0DA8B00E707D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93646EC315C0DA8B00E707D1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93646EC515C0DA8B00E707D1 /* VitMobile */ = {
+			isa = PBXGroup;
+			children = (
+				939FFC6E162BEC7200F6C6BA /* Theme */,
+				93E6536315D1097200C2EFF4 /* Delegate */,
+				934D9E5015C656BC00604C0F /* Model */,
+				931C683215C10D120002C096 /* VitController */,
+				93646F6215C0DD1C00E707D1 /* VitClass */,
+				93646EC615C0DA8B00E707D1 /* Supporting Files */,
+				931C681715C0FF510002C096 /* VitMobile.h */,
+			);
+			path = VitMobile;
+			sourceTree = "<group>";
+		};
+		93646EC615C0DA8B00E707D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93646EC715C0DA8B00E707D1 /* VitMobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93646ED915C0DA8B00E707D1 /* VitMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				93646EDA15C0DA8B00E707D1 /* Supporting Files */,
+			);
+			path = VitMobileTests;
+			sourceTree = "<group>";
+		};
+		93646EDA15C0DA8B00E707D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93646EDB15C0DA8B00E707D1 /* VitMobileTests-Info.plist */,
+				93646EDC15C0DA8B00E707D1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93646EEB15C0DB6200E707D1 /* SDTables */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SDTables;
+			sourceTree = "<group>";
+		};
+		93646F4215C0DCB500E707D1 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				93646F7615C0E11A00E707D1 /* ShadowedTableView */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		93646F4315C0DCC700E707D1 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				934D9E8C15C7C7FF00604C0F /* popOptions */,
+				93646F4415C0DCEA00E707D1 /* DateInputTableViewCell.h */,
+				93646F4515C0DCEA00E707D1 /* DateInputTableViewCell.m */,
+				93646F4615C0DCEA00E707D1 /* StringInputTableViewCell.h */,
+				93646F4715C0DCEA00E707D1 /* StringInputTableViewCell.m */,
+				9327776D1600305300427F2C /* JFTextViewNoInset.h */,
+				9327776E1600305400427F2C /* JFTextViewNoInset.m */,
+				932777681600231C00427F2C /* TextViewInputTableViewCell.h */,
+				932777691600231C00427F2C /* TextViewInputTableViewCell.m */,
+				93646F4815C0DCEA00E707D1 /* IntegerInputTableViewCell.h */,
+				93646F4915C0DCEA00E707D1 /* IntegerInputTableViewCell.m */,
+				93646F5015C0DCEA00E707D1 /* VTTableViewCell.h */,
+				93646F5115C0DCEA00E707D1 /* VTTableViewCell.m */,
+				93AA3D4415EF332A00888621 /* PopTKCalendarPickerTableCell.h */,
+				93AA3D4515EF332C00888621 /* PopTKCalendarPickerTableCell.m */,
+				93F112F815F07C9800D9C045 /* PopCKCalendarPickTableCell.h */,
+				93F112F915F07C9800D9C045 /* PopCKCalendarPickTableCell.m */,
+				93F112FC15F07DCB00D9C045 /* PopCKCalendarPeriodPickTableCell.h */,
+				93F112FD15F07DCB00D9C045 /* PopCKCalendarPeriodPickTableCell.m */,
+				93AA3D7715F0652D00888621 /* PopPeriodPickerTableCell.h */,
+				93AA3D7815F0652D00888621 /* PopPeriodPickerTableCell.m */,
+				934D9EAD15C9250E00604C0F /* PopListBaseTableCell.h */,
+				934D9EAE15C9251100604C0F /* PopListBaseTableCell.m */,
+				93254D3D1613E64500F40D3D /* PopSBTableAlertTableCell.h */,
+				93254D3E1613E64600F40D3D /* PopSBTableAlertTableCell.m */,
+				934CBB661608675E000250D4 /* PopViewMultiplePickerTableCell.h */,
+				934CBB671608675E000250D4 /* PopViewMultiplePickerTableCell.m */,
+				93F1130615F0889D00D9C045 /* PopViewTableCell.h */,
+				93F1130715F0889D00D9C045 /* PopViewTableCell.m */,
+				934D9E8815C7C0E500604C0F /* PopListDataPickerTableCell.h */,
+				934D9E8915C7C0E500604C0F /* PopListDataPickerTableCell.m */,
+				93AA3CD615ECB70B00888621 /* PopListCityPickerTableCell.h */,
+				93AA3CD715ECB70B00888621 /* PopListCityPickerTableCell.m */,
+				934D9EA915C9197B00604C0F /* PopListDataMultiplePickerTableCell.h */,
+				934D9EAA15C9197D00604C0F /* PopListDataMultiplePickerTableCell.m */,
+				933A0D7516268A4C00553855 /* VTRadioTableCell.h */,
+				933A0D7616268A4C00553855 /* VTRadioTableCell.m */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		93646F6215C0DD1C00E707D1 /* VitClass */ = {
+			isa = PBXGroup;
+			children = (
+				93A301341642087700FAE095 /* TextFIeld */,
+				93F1130115F086CD00D9C045 /* PopBaseView */,
+				93F112EE15F077B800D9C045 /* CKCalendar */,
+				93AA3D2B15EF301500888621 /* TKCalendar */,
+				932F8F7D15DDE9E8001EB972 /* Category */,
+				932F8E0615DA223E001EB972 /* Pretty Kit */,
+				93E653F915D23BC300C2EFF4 /* LeftPanelView */,
+				93E6536E15D10F6300C2EFF4 /* RotateView */,
+				938702C115CF635D00CB10B8 /* VerticalTabBar */,
+				934D9E7B15C7BF0C00604C0F /* PopListView */,
+				93F38CFE15C2864000BADCEA /* AvoidInputScrollView */,
+				93F38CDE15C27ADC00BADCEA /* PanelView */,
+				93646FAF15C0EA9F00E707D1 /* GridView */,
+				93646F8315C0E14D00E707D1 /* Switch */,
+				93646F6815C0DD6400E707D1 /* VTConstant.h */,
+				93E6538C15D1115600C2EFF4 /* VTUtils.h */,
+				93646F6B15C0DDB300E707D1 /* VTUtils.m */,
+				93E6538E15D1117F00C2EFF4 /* VTCustomCellBackgroundView.h */,
+				93646F6F15C0DDF800E707D1 /* VTCustomCellBackgroundView.m */,
+				93646F7215C0DE0D00E707D1 /* UINavigationControllerAdditions.h */,
+				93646F7315C0DE0E00E707D1 /* UINavigationControllerAdditions.m */,
+				93646F6315C0DD3400E707D1 /* NavBarTitleView */,
+				93646F4315C0DCC700E707D1 /* TableViewCells */,
+				93646F4215C0DCB500E707D1 /* TableView */,
+				93646EEB15C0DB6200E707D1 /* SDTables */,
+			);
+			name = VitClass;
+			sourceTree = "<group>";
+		};
+		93646F6315C0DD3400E707D1 /* NavBarTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				93646F6415C0DD4E00E707D1 /* VTNavTitleButton.h */,
+				93646F6515C0DD4E00E707D1 /* VTNavTitleButton.m */,
+			);
+			name = NavBarTitleView;
+			sourceTree = "<group>";
+		};
+		93646F7615C0E11A00E707D1 /* ShadowedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				93646F7715C0E13C00E707D1 /* ShadowedTableView.h */,
+				93646F7815C0E13C00E707D1 /* ShadowedTableView.m */,
+				93646F7915C0E13C00E707D1 /* GradientView.h */,
+				93646F7A15C0E13C00E707D1 /* GradientView.m */,
+				93646F7B15C0E13C00E707D1 /* ClearLabelsCellView.h */,
+				93646F7C15C0E13C00E707D1 /* ClearLabelsCellView.m */,
+			);
+			name = ShadowedTableView;
+			sourceTree = "<group>";
+		};
+		93646F8315C0E14D00E707D1 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				93F38CE715C27CF000BADCEA /* SGSwitch */,
+				93646F8415C0E15500E707D1 /* RCSwitch */,
+			);
+			name = Switch;
+			sourceTree = "<group>";
+		};
+		93646F8415C0E15500E707D1 /* RCSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				93646F8515C0E16800E707D1 /* RCSwitch.h */,
+				93646F8615C0E16800E707D1 /* RCSwitch.m */,
+				93646F8715C0E16800E707D1 /* RCSwitchOnOff.h */,
+				93646F8815C0E16800E707D1 /* RCSwitchOnOff.m */,
+				93646F8915C0E16800E707D1 /* btn_slider_off.png */,
+				93646F8A15C0E16800E707D1 /* btn_slider_on.png */,
+				93646F8B15C0E16800E707D1 /* btn_slider_thumb.png */,
+				93646F8C15C0E16800E707D1 /* btn_slider_thumb_pressed.png */,
+				93646F8D15C0E16800E707D1 /* btn_slider_track_pressed.png */,
+				93646F8E15C0E16800E707D1 /* btn_slider_track.png */,
+				93646F8F15C0E16800E707D1 /* btn_slider_off@2x.png */,
+				93646F9015C0E16800E707D1 /* btn_slider_on@2x.png */,
+				93646F9115C0E16800E707D1 /* btn_slider_thumb_pressed@2x.png */,
+				93646F9215C0E16800E707D1 /* btn_slider_thumb@2x.png */,
+				93646F9315C0E16800E707D1 /* btn_slider_track_pressed@2x.png */,
+				93646F9415C0E16800E707D1 /* btn_slider_track@2x.png */,
+				93646F9515C0E16800E707D1 /* btn_slider_international_off.png */,
+				93646F9615C0E16800E707D1 /* btn_slider_international_off@2x.png */,
+				93646F9715C0E16800E707D1 /* btn_slider_international_on.png */,
+				93646F9815C0E16800E707D1 /* btn_slider_international_on@2x.png */,
+			);
+			name = RCSwitch;
+			sourceTree = "<group>";
+		};
+		93646FAF15C0EA9F00E707D1 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				93646FBC15C0ED9E00E707D1 /* MMGridView.h */,
+				93646FBD15C0ED9E00E707D1 /* MMGridView.m */,
+				93646FBE15C0ED9E00E707D1 /* MMGridViewCell.h */,
+				93646FBF15C0ED9E00E707D1 /* MMGridViewCell.m */,
+				93646FC015C0ED9E00E707D1 /* MMGridViewDefaultCell.h */,
+				93646FC115C0ED9E00E707D1 /* MMGridViewDefaultCell.m */,
+				931C683815C110C80002C096 /* MMGridViewVitCell.h */,
+				931C683915C110C80002C096 /* MMGridViewVitCell.m */,
+			);
+			name = GridView;
+			sourceTree = "<group>";
+		};
+		938702C115CF635D00CB10B8 /* VerticalTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				93E6541215D2585F00C2EFF4 /* BCTab.h */,
+				93E6541315D2585F00C2EFF4 /* BCTab.m */,
+				93E6541415D2585F00C2EFF4 /* BCTabBar.h */,
+				93E6541515D2585F00C2EFF4 /* BCTabBar.m */,
+				93E6541615D2585F00C2EFF4 /* BCTabBarController.h */,
+				93E6541715D2585F00C2EFF4 /* BCTabBarController.m */,
+				931D0DE816046AB200C8A36B /* CNTTabController.h */,
+				931D0DE916046AB300C8A36B /* CNTTabController.m */,
+				9380C02315D4E93500ACED73 /* BCNavigationController.h */,
+				9380C02415D4E93600ACED73 /* BCNavigationController.m */,
+				93E6541815D2585F00C2EFF4 /* BCTabBarView.h */,
+				93E6541915D2585F00C2EFF4 /* BCTabBarView.m */,
+			);
+			name = VerticalTabBar;
+			sourceTree = "<group>";
+		};
+		939FFC6E162BEC7200F6C6BA /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				939FFC70162BEC8E00F6C6BA /* ThemeManager.h */,
+				939FFC71162BEC8E00F6C6BA /* ThemeManager.m */,
+			);
+			name = Theme;
+			sourceTree = "<group>";
+		};
+		93A301341642087700FAE095 /* TextFIeld */ = {
+			isa = PBXGroup;
+			children = (
+				9395CD4B1656417F001EB342 /* TTTAttributedLabel.h */,
+				9395CD4C1656417F001EB342 /* TTTAttributedLabel.m */,
+				93A301361642089D00FAE095 /* VTPopPickTextField.h */,
+				93A301371642089D00FAE095 /* VTPopPickTextField.m */,
+			);
+			name = TextFIeld;
+			sourceTree = "<group>";
+		};
+		93AA3D2B15EF301500888621 /* TKCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				93AA3D3C15EF305300888621 /* NSDate+TKCategory.h */,
+				93AA3D3D15EF305500888621 /* NSDate+TKCategory.m */,
+				93AA3D2C15EF304400888621 /* TKGlobal.h */,
+				93AA3D2D15EF304400888621 /* TKGlobal.m */,
+				93AA3D2E15EF304400888621 /* UIImage+TKCategory.h */,
+				93AA3D2F15EF304400888621 /* UIImage+TKCategory.m */,
+				93AA3D3015EF304400888621 /* UIView+TKCategory.h */,
+				93AA3D3115EF304400888621 /* UIView+TKCategory.m */,
+				93AA3D3815EF304C00888621 /* TKCalendarMonthView.h */,
+				93AA3D3915EF304C00888621 /* TKCalendarMonthView.m */,
+				93AA3D4815EF409400888621 /* TKPopCalendarView.h */,
+				93AA3D4115EF312000888621 /* TKPopCalendarView.m */,
+			);
+			name = TKCalendar;
+			sourceTree = "<group>";
+		};
+		93E6536315D1097200C2EFF4 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				93E6536415D1098700C2EFF4 /* VTDelegate.h */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		93E6536E15D10F6300C2EFF4 /* RotateView */ = {
+			isa = PBXGroup;
+			children = (
+				93E6537715D10FC600C2EFF4 /* UI */,
+				93E6536F15D10F9700C2EFF4 /* VTRotateMenu.h */,
+				93E6537015D10F9700C2EFF4 /* VTRotateMenu.m */,
+				93E6537115D10F9700C2EFF4 /* VTRotateMenuView.h */,
+				93E6537215D10F9700C2EFF4 /* VTRotateMenuView.m */,
+			);
+			name = RotateView;
+			sourceTree = "<group>";
+		};
+		93E6537715D10FC600C2EFF4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				93E6537815D10FD300C2EFF4 /* VTRotateMenuUI.h */,
+				93E6537915D10FD300C2EFF4 /* VTRotateMenuUI.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		93E653F915D23BC300C2EFF4 /* LeftPanelView */ = {
+			isa = PBXGroup;
+			children = (
+				93E653FB15D23BD200C2EFF4 /* VTPanelView.h */,
+				93E653FC15D23BD200C2EFF4 /* VTPanelView.m */,
+				932F8DCB15D9E3F7001EB972 /* VTButton.h */,
+				932F8DCC15D9E3F7001EB972 /* VTButton.m */,
+			);
+			name = LeftPanelView;
+			sourceTree = "<group>";
+		};
+		93F112EE15F077B800D9C045 /* CKCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				93F112F015F077C200D9C045 /* CKCalendarView.m */,
+				93F112F115F077C200D9C045 /* CKCalendarView.h */,
+				93F112F415F0780A00D9C045 /* CKCalendarPopView.h */,
+				93F112F515F0780A00D9C045 /* CKCalendarPopView.m */,
+				93254D411613FC8900F40D3D /* CKCalendarAlert.h */,
+				93254D421613FC8900F40D3D /* CKCalendarAlert.m */,
+			);
+			name = CKCalendar;
+			sourceTree = "<group>";
+		};
+		93F1130115F086CD00D9C045 /* PopBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				93F1130215F086E000D9C045 /* PopBaseView.h */,
+				93F1130315F086E000D9C045 /* PopBaseView.m */,
+				93F9E0571615768D00EEDD85 /* CNTAlert.h */,
+				93F9E0581615768D00EEDD85 /* CNTAlert.m */,
+			);
+			name = PopBaseView;
+			sourceTree = "<group>";
+		};
+		93F38CDE15C27ADC00BADCEA /* PanelView */ = {
+			isa = PBXGroup;
+			children = (
+				93F38CDF15C27AE800BADCEA /* PanelIndexPath.h */,
+				93F38CE015C27AE800BADCEA /* PanelIndexPath.m */,
+				93F38CE115C27AE800BADCEA /* PanelView.h */,
+				93F38CE215C27AE800BADCEA /* PanelView.m */,
+				93F38CFA15C2857100BADCEA /* PanelsViewController.h */,
+				93F38CFB15C2857100BADCEA /* PanelsViewController.m */,
+			);
+			name = PanelView;
+			sourceTree = "<group>";
+		};
+		93F38CE715C27CF000BADCEA /* SGSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				93F38CE815C27D0100BADCEA /* SVSegmentedControl.h */,
+				93F38CE915C27D0100BADCEA /* SVSegmentedControl.m */,
+				93F38CEA15C27D0100BADCEA /* SVSegmentedThumb.h */,
+				93F38CEB15C27D0100BADCEA /* SVSegmentedThumb.m */,
+			);
+			name = SGSwitch;
+			sourceTree = "<group>";
+		};
+		93F38CFE15C2864000BADCEA /* AvoidInputScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				93F38CFF15C2865200BADCEA /* TPKeyboardAvoidingScrollView.h */,
+				93F38D0015C2865200BADCEA /* TPKeyboardAvoidingScrollView.m */,
+				93AA3D0515EF29F300888621 /* TPKeyboardAvoidingTableView.h */,
+				93AA3D0615EF29F300888621 /* TPKeyboardAvoidingTableView.m */,
+			);
+			name = AvoidInputScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		93646EBE15C0DA8B00E707D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93646F5215C0DCEA00E707D1 /* DateInputTableViewCell.h in Headers */,
+				93646F5415C0DCEA00E707D1 /* StringInputTableViewCell.h in Headers */,
+				93646F5615C0DCEA00E707D1 /* IntegerInputTableViewCell.h in Headers */,
+				93646F5E15C0DCEA00E707D1 /* VTTableViewCell.h in Headers */,
+				93646F6615C0DD4E00E707D1 /* VTNavTitleButton.h in Headers */,
+				93646F6915C0DD6400E707D1 /* VTConstant.h in Headers */,
+				93646F7415C0DE0E00E707D1 /* UINavigationControllerAdditions.h in Headers */,
+				93646F7D15C0E13C00E707D1 /* ShadowedTableView.h in Headers */,
+				93646F7F15C0E13C00E707D1 /* GradientView.h in Headers */,
+				93646F8115C0E13C00E707D1 /* ClearLabelsCellView.h in Headers */,
+				93646F9915C0E16800E707D1 /* RCSwitch.h in Headers */,
+				93646F9B15C0E16800E707D1 /* RCSwitchOnOff.h in Headers */,
+				93646FC215C0ED9E00E707D1 /* MMGridView.h in Headers */,
+				93646FC415C0ED9E00E707D1 /* MMGridViewCell.h in Headers */,
+				93646FC615C0ED9E00E707D1 /* MMGridViewDefaultCell.h in Headers */,
+				931C683615C10D430002C096 /* VTGridMenu.h in Headers */,
+				931C683A15C110C80002C096 /* MMGridViewVitCell.h in Headers */,
+				93F38CB115C22E1500BADCEA /* VTTableViewMenu.h in Headers */,
+				93F38CD315C2640100BADCEA /* VTComplexMenuView.h in Headers */,
+				93F38CD815C274A100BADCEA /* VTUI.h in Headers */,
+				93F38CDC15C274CF00BADCEA /* VTTableUI.h in Headers */,
+				93F38CE315C27AE800BADCEA /* PanelIndexPath.h in Headers */,
+				93F38CE515C27AE800BADCEA /* PanelView.h in Headers */,
+				93F38CEC15C27D0100BADCEA /* SVSegmentedControl.h in Headers */,
+				93F38CEE15C27D0100BADCEA /* SVSegmentedThumb.h in Headers */,
+				93F38CFC15C2857100BADCEA /* PanelsViewController.h in Headers */,
+				93F38D0115C2865200BADCEA /* TPKeyboardAvoidingScrollView.h in Headers */,
+				934D9E4215C631B000604C0F /* VTNewsUI.h in Headers */,
+				934D9E4615C6351C00604C0F /* VTShadowedTableUI.h in Headers */,
+				934D9E5315C6570B00604C0F /* VTNewsDict.h in Headers */,
+				934D9E5715C65AEF00604C0F /* VTNewsListDict.h in Headers */,
+				934D9E8A15C7C0E500604C0F /* PopListDataPickerTableCell.h in Headers */,
+				934D9E8F15C7C82600604C0F /* VTPopOptions.h in Headers */,
+				934D9EA315C8FFBE00604C0F /* LeveyPopListView.h in Headers */,
+				934D9EA515C8FFBE00604C0F /* LeveyPopListViewCell.h in Headers */,
+				934D9EA715C8FFBE00604C0F /* VTPopListView.h in Headers */,
+				934D9EAB15C9198200604C0F /* PopListDataMultiplePickerTableCell.h in Headers */,
+				934D9EAF15C9251B00604C0F /* PopListBaseTableCell.h in Headers */,
+				934D9EB315CA117F00604C0F /* VTPopRadioListViewCell.h in Headers */,
+				934D9EBB15CA1ABF00604C0F /* VTPopCheckListViewCell.h in Headers */,
+				934D9EBF15CA418700604C0F /* VTPanelUI.h in Headers */,
+				93E6536515D1098700C2EFF4 /* VTDelegate.h in Headers */,
+				93E6537315D10F9700C2EFF4 /* VTRotateMenu.h in Headers */,
+				93E6537515D10F9700C2EFF4 /* VTRotateMenuView.h in Headers */,
+				93E6537A15D10FD300C2EFF4 /* VTRotateMenuUI.h in Headers */,
+				93E6538D15D1115700C2EFF4 /* VTUtils.h in Headers */,
+				93E6538F15D1118000C2EFF4 /* VTCustomCellBackgroundView.h in Headers */,
+				93E653FD15D23BD200C2EFF4 /* VTPanelView.h in Headers */,
+				93E6541A15D2585F00C2EFF4 /* BCTab.h in Headers */,
+				93E6541C15D2585F00C2EFF4 /* BCTabBar.h in Headers */,
+				93E6541E15D2585F00C2EFF4 /* BCTabBarController.h in Headers */,
+				93E6542015D2585F00C2EFF4 /* BCTabBarView.h in Headers */,
+				9380C02515D4E93600ACED73 /* BCNavigationController.h in Headers */,
+				932F8DCD15D9E3F7001EB972 /* VTButton.h in Headers */,
+				932F8E2815DA227C001EB972 /* PrettyDrawing.h in Headers */,
+				932F8E2A15DA227C001EB972 /* PrettyKit.h in Headers */,
+				932F8E2B15DA227C001EB972 /* PrettyNavigationBar.h in Headers */,
+				932F8E2D15DA227C001EB972 /* PrettyShadowPlainTableview.h in Headers */,
+				932F8E2F15DA227C001EB972 /* PrettyTabBar.h in Headers */,
+				932F8E3115DA227C001EB972 /* PrettyToolbar.h in Headers */,
+				93AA3CD215ECB2EA00888621 /* VTPopCityListView.h in Headers */,
+				93AA3CD815ECB70C00888621 /* PopListCityPickerTableCell.h in Headers */,
+				93AA3D0715EF29F400888621 /* TPKeyboardAvoidingTableView.h in Headers */,
+				93AA3D3215EF304400888621 /* TKGlobal.h in Headers */,
+				93AA3D3415EF304400888621 /* UIImage+TKCategory.h in Headers */,
+				93AA3D3615EF304400888621 /* UIView+TKCategory.h in Headers */,
+				93AA3D3A15EF304C00888621 /* TKCalendarMonthView.h in Headers */,
+				93AA3D3E15EF305800888621 /* NSDate+TKCategory.h in Headers */,
+				93AA3D4615EF332D00888621 /* PopTKCalendarPickerTableCell.h in Headers */,
+				93AA3D4915EF409500888621 /* TKPopCalendarView.h in Headers */,
+				93AA3D7915F0652D00888621 /* PopPeriodPickerTableCell.h in Headers */,
+				93F112F315F077C200D9C045 /* CKCalendarView.h in Headers */,
+				93F112F615F0780A00D9C045 /* CKCalendarPopView.h in Headers */,
+				93F112FA15F07C9800D9C045 /* PopCKCalendarPickTableCell.h in Headers */,
+				93F112FE15F07DCB00D9C045 /* PopCKCalendarPeriodPickTableCell.h in Headers */,
+				93F1130415F086E000D9C045 /* PopBaseView.h in Headers */,
+				93F1130815F0889E00D9C045 /* PopViewTableCell.h in Headers */,
+				9327776A1600231C00427F2C /* TextViewInputTableViewCell.h in Headers */,
+				9327776F1600305500427F2C /* JFTextViewNoInset.h in Headers */,
+				931D0DEA16046AB400C8A36B /* CNTTabController.h in Headers */,
+				934CBB6816086760000250D4 /* PopViewMultiplePickerTableCell.h in Headers */,
+				93254D331613074100F40D3D /* SBTableAlert.h in Headers */,
+				93254D3F1613E64800F40D3D /* PopSBTableAlertTableCell.h in Headers */,
+				93254D431613FC8A00F40D3D /* CKCalendarAlert.h in Headers */,
+				93F9E0591615768D00EEDD85 /* CNTAlert.h in Headers */,
+				933A0D7716268A4C00553855 /* VTRadioTableCell.h in Headers */,
+				939FFC72162BEC8E00F6C6BA /* ThemeManager.h in Headers */,
+				93A301381642089D00FAE095 /* VTPopPickTextField.h in Headers */,
+				9395CD4D1656417F001EB342 /* TTTAttributedLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		93646EBF15C0DA8B00E707D1 /* VitMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93646EE415C0DA8B00E707D1 /* Build configuration list for PBXNativeTarget "VitMobile" */;
+			buildPhases = (
+				93646EBC15C0DA8B00E707D1 /* Sources */,
+				93646EBD15C0DA8B00E707D1 /* Frameworks */,
+				93646EBE15C0DA8B00E707D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VitMobile;
+			productName = VitMobile;
+			productReference = 93646EC015C0DA8B00E707D1 /* libVitMobile.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93646EB715C0DA8B00E707D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 93646EBA15C0DA8B00E707D1 /* Build configuration list for PBXProject "VitMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93646EB515C0DA8B00E707D1;
+			productRefGroup = 93646EC115C0DA8B00E707D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93646EBF15C0DA8B00E707D1 /* VitMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93646EBC15C0DA8B00E707D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93646F5315C0DCEA00E707D1 /* DateInputTableViewCell.m in Sources */,
+				93646F5515C0DCEA00E707D1 /* StringInputTableViewCell.m in Sources */,
+				93646F5715C0DCEA00E707D1 /* IntegerInputTableViewCell.m in Sources */,
+				93646F5F15C0DCEA00E707D1 /* VTTableViewCell.m in Sources */,
+				93646F6715C0DD4E00E707D1 /* VTNavTitleButton.m in Sources */,
+				93646F6D15C0DDB400E707D1 /* VTUtils.m in Sources */,
+				93646F7115C0DDF800E707D1 /* VTCustomCellBackgroundView.m in Sources */,
+				93646F7515C0DE0E00E707D1 /* UINavigationControllerAdditions.m in Sources */,
+				93646F7E15C0E13C00E707D1 /* ShadowedTableView.m in Sources */,
+				93646F8015C0E13C00E707D1 /* GradientView.m in Sources */,
+				93646F8215C0E13C00E707D1 /* ClearLabelsCellView.m in Sources */,
+				93646F9A15C0E16800E707D1 /* RCSwitch.m in Sources */,
+				93646F9C15C0E16800E707D1 /* RCSwitchOnOff.m in Sources */,
+				93646FC315C0ED9E00E707D1 /* MMGridView.m in Sources */,
+				93646FC515C0ED9E00E707D1 /* MMGridViewCell.m in Sources */,
+				93646FC715C0ED9E00E707D1 /* MMGridViewDefaultCell.m in Sources */,
+				931C683715C10D430002C096 /* VTGridMenu.m in Sources */,
+				931C683B15C110C80002C096 /* MMGridViewVitCell.m in Sources */,
+				93F38CB215C22E1500BADCEA /* VTTableViewMenu.m in Sources */,
+				93F38CD415C2640100BADCEA /* VTComplexMenuView.m in Sources */,
+				93F38CDD15C274CF00BADCEA /* VTTableUI.m in Sources */,
+				93F38CE415C27AE800BADCEA /* PanelIndexPath.m in Sources */,
+				93F38CE615C27AE800BADCEA /* PanelView.m in Sources */,
+				93F38CED15C27D0100BADCEA /* SVSegmentedControl.m in Sources */,
+				93F38CEF15C27D0100BADCEA /* SVSegmentedThumb.m in Sources */,
+				93F38CFD15C2857100BADCEA /* PanelsViewController.m in Sources */,
+				93F38D0215C2865200BADCEA /* TPKeyboardAvoidingScrollView.m in Sources */,
+				934D9E4315C631B000604C0F /* VTNewsUI.m in Sources */,
+				934D9E4715C6351C00604C0F /* VTShadowedTableUI.m in Sources */,
+				934D9E5815C65AEF00604C0F /* VTNewsListDict.m in Sources */,
+				934D9E8B15C7C0E500604C0F /* PopListDataPickerTableCell.m in Sources */,
+				934D9E9015C7C82600604C0F /* VTPopOptions.m in Sources */,
+				934D9EA415C8FFBE00604C0F /* LeveyPopListView.m in Sources */,
+				934D9EA615C8FFBE00604C0F /* LeveyPopListViewCell.m in Sources */,
+				934D9EAC15C9198200604C0F /* PopListDataMultiplePickerTableCell.m in Sources */,
+				934D9EB015C9251B00604C0F /* PopListBaseTableCell.m in Sources */,
+				934D9EB415CA117F00604C0F /* VTPopRadioListViewCell.m in Sources */,
+				934D9EBC15CA1ABF00604C0F /* VTPopCheckListViewCell.m in Sources */,
+				934D9EC015CA418700604C0F /* VTPanelUI.m in Sources */,
+				93E6536715D10A1900C2EFF4 /* VTNewsDict.m in Sources */,
+				93E6536915D10A9200C2EFF4 /* VTUI.m in Sources */,
+				93E6537415D10F9700C2EFF4 /* VTRotateMenu.m in Sources */,
+				93E6537615D10F9700C2EFF4 /* VTRotateMenuView.m in Sources */,
+				93E6537B15D10FD300C2EFF4 /* VTRotateMenuUI.m in Sources */,
+				93E653FE15D23BD200C2EFF4 /* VTPanelView.m in Sources */,
+				93E6541B15D2585F00C2EFF4 /* BCTab.m in Sources */,
+				93E6541D15D2585F00C2EFF4 /* BCTabBar.m in Sources */,
+				93E6541F15D2585F00C2EFF4 /* BCTabBarController.m in Sources */,
+				93E6542115D2585F00C2EFF4 /* BCTabBarView.m in Sources */,
+				9380C02615D4E93600ACED73 /* BCNavigationController.m in Sources */,
+				932F8DCE15D9E3F7001EB972 /* VTButton.m in Sources */,
+				932F8E2915DA227C001EB972 /* PrettyDrawing.m in Sources */,
+				932F8E2C15DA227C001EB972 /* PrettyNavigationBar.m in Sources */,
+				932F8E2E15DA227C001EB972 /* PrettyShadowPlainTableview.m in Sources */,
+				932F8E3015DA227C001EB972 /* PrettyTabBar.m in Sources */,
+				932F8E3215DA227C001EB972 /* PrettyToolbar.m in Sources */,
+				93AA3CD315ECB2EA00888621 /* VTPopCityListView.m in Sources */,
+				93AA3CD915ECB70C00888621 /* PopListCityPickerTableCell.m in Sources */,
+				93AA3CDD15ECB98100888621 /* VTPopListView.m in Sources */,
+				93AA3D0815EF29F400888621 /* TPKeyboardAvoidingTableView.m in Sources */,
+				93AA3D3315EF304400888621 /* TKGlobal.m in Sources */,
+				93AA3D3515EF304400888621 /* UIImage+TKCategory.m in Sources */,
+				93AA3D3715EF304400888621 /* UIView+TKCategory.m in Sources */,
+				93AA3D3B15EF304C00888621 /* TKCalendarMonthView.m in Sources */,
+				93AA3D3F15EF305800888621 /* NSDate+TKCategory.m in Sources */,
+				93AA3D4315EF312000888621 /* TKPopCalendarView.m in Sources */,
+				93AA3D4715EF332D00888621 /* PopTKCalendarPickerTableCell.m in Sources */,
+				93AA3D7A15F0652D00888621 /* PopPeriodPickerTableCell.m in Sources */,
+				93F112F215F077C200D9C045 /* CKCalendarView.m in Sources */,
+				93F112F715F0780A00D9C045 /* CKCalendarPopView.m in Sources */,
+				93F112FB15F07C9800D9C045 /* PopCKCalendarPickTableCell.m in Sources */,
+				93F112FF15F07DCB00D9C045 /* PopCKCalendarPeriodPickTableCell.m in Sources */,
+				93F1130515F086E000D9C045 /* PopBaseView.m in Sources */,
+				93F1130915F0889E00D9C045 /* PopViewTableCell.m in Sources */,
+				9327776B1600231C00427F2C /* TextViewInputTableViewCell.m in Sources */,
+				932777701600305500427F2C /* JFTextViewNoInset.m in Sources */,
+				931D0DEB16046AB400C8A36B /* CNTTabController.m in Sources */,
+				934CBB6916086760000250D4 /* PopViewMultiplePickerTableCell.m in Sources */,
+				93254D341613074100F40D3D /* SBTableAlert.m in Sources */,
+				93254D401613E64800F40D3D /* PopSBTableAlertTableCell.m in Sources */,
+				93254D441613FC8A00F40D3D /* CKCalendarAlert.m in Sources */,
+				93F9E05A1615768D00EEDD85 /* CNTAlert.m in Sources */,
+				933A0D7816268A4C00553855 /* VTRadioTableCell.m in Sources */,
+				939FFC73162BEC8E00F6C6BA /* ThemeManager.m in Sources */,
+				93A301391642089D00FAE095 /* VTPopPickTextField.m in Sources */,
+				9395CD4E1656417F001EB342 /* TTTAttributedLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93646EDC15C0DA8B00E707D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93646EDD15C0DA8B00E707D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93646EE215C0DA8B00E707D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93646EE315C0DA8B00E707D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93646EE515C0DA8B00E707D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/VitMobile.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VitMobile/VitMobile-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93646EE615C0DA8B00E707D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/VitMobile.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VitMobile/VitMobile-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93646EBA15C0DA8B00E707D1 /* Build configuration list for PBXProject "VitMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93646EE215C0DA8B00E707D1 /* Debug */,
+				93646EE315C0DA8B00E707D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93646EE415C0DA8B00E707D1 /* Build configuration list for PBXNativeTarget "VitMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93646EE515C0DA8B00E707D1 /* Debug */,
+				93646EE615C0DA8B00E707D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93646EB715C0DA8B00E707D1 /* Project object */;
+}

@@ -7,6 +7,8 @@
 //
 
 #import "PTFirstViewController.h"
+#import "CXMLDocument.h"
+#import "PTMenuConfig.h"
 
 @interface PTFirstViewController ()
 
@@ -27,6 +29,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSError* error;
+    NSString *xmlPath = [[NSBundle mainBundle] pathForResource:@"CommonMenu" ofType:@"xml"];
+    NSData *fileData = [NSData dataWithContentsOfFile:xmlPath];
+    CXMLDocument *xml = [[CXMLDocument alloc] initWithData:fileData options:0 error:&error];
+    [[PTMenuConfig shareMenuInstance] menuInfoWithId:@""];
+    
+//    NSLog(@"xml %@",xml);
+//    [[[MenuItem alloc] init] parseRoot:xml];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
