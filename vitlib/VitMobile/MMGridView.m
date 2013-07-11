@@ -39,6 +39,7 @@
 
 - (void)createSubviews;
 - (void)cellWasSelected:(MMGridViewCell *)cell;
+- (void)cellWasLongPressed:(MMGridViewCell *)cell;
 - (void)updateCurrentPageIndex;
 @end
 
@@ -55,6 +56,7 @@
 @synthesize numberOfPages;
 @synthesize numberOfTatalRows;
 @synthesize layoutStyle;
+@synthesize longPressSupport;
 
 
 
@@ -153,7 +155,14 @@
             MMGridViewCell *cell = [self.dataSource gridView:self cellAtIndex:i];
             [cell performSelector:@selector(setGridView:) withObject:self];
             [cell performSelector:@selector(setIndex:) withObject:[NSNumber numberWithInt:i]];
-         
+            [cell addTarget:self action:@selector(cellWasSelected:) forControlEvents:UIControlEventTouchUpInside];
+            
+            if(self.longPressSupport){
+                cell.isRemovable = YES;
+                UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(cellWasLongPressed:)];
+                [cell addGestureRecognizer:longPress];
+            }
+            
             NSInteger page = (int)floor((float)i / (float)cellsPerPage);
             NSInteger row  = (int)floor((float)i / (float)noOfCols) - (page * noOfRows);
          
@@ -240,6 +249,19 @@
 {
     if (delegate && [delegate respondsToSelector:@selector(gridView:didSelectCell:atIndex:)]) {
         [delegate gridView:self didSelectCell:cell atIndex:cell.index];
+    }
+}
+
+- (void)cellWasLongPressed:(UILongPressGestureRecognizer *)gestureRecognizer
+{
+
+    if (gestureRecognizer.state == UIGestureRecognizerStateRecognized)
+    {
+        MMGridViewCell *cell= (MMGridViewCell*)[gestureRecognizer view];
+        if (delegate && [delegate respondsToSelector:@selector(gridView:didLongPressCell:atIndex:)]) {
+            [delegate gridView:self didLongPressCell:cell atIndex:cell.index];
+        }
+        
     }
 }
 

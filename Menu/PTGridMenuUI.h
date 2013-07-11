@@ -6,7 +6,6 @@
 //  Copyright (c) 2013年 aaron. All rights reserved.
 //
 
-#import <VitMobile/VTGridMenu.h>
 
 @interface PTGridMenuUI : VTGridMenu
 

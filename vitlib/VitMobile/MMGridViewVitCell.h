@@ -10,12 +10,14 @@
 
 @interface MMGridViewVitCell : MMGridViewCell
 {
-    UILabel *textLabel;
-    UIView *backgroundView;
-    UIImageView *iconImage;
+    UILabel *_textLabel;
+    UIView *_bbackgroundView;
+    NSString *_iconImgName;
 }
 
-@property (nonatomic,strong) UILabel *textLabel;
-@property (nonatomic,strong) UIView *backgroundView;
-@property (nonatomic,strong) UIImageView *iconImage;
+@property (nonatomic, strong) UILabel *textLabel;
+@property (nonatomic, strong) UIView *backgroundView;
+@property (nonatomic, strong) NSString *iconImgName;
+
+
 @end

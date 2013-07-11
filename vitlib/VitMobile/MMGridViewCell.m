@@ -32,8 +32,7 @@
 
 @synthesize gridView;
 @synthesize index;
-
-
+@synthesize isInEditingMode = _isInEditingMode, isRemovable = _isRemovable;
 
 - (id)initWithFrame:(CGRect)frame 
 {
@@ -44,6 +43,13 @@
 }
 
 
+- (void) addSubview:(UIView *)v
+{
+	[super addSubview:v];
+	v.exclusiveTouch = NO;
+	v.userInteractionEnabled = NO;
+}
+
 - (void)setIndex:(NSNumber *)theIndex
 {
     index = [theIndex intValue];
@@ -53,24 +59,24 @@
 
 #pragma - Touch event handling
 
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    UITouch *aTouch = [touches anyObject];
-    if (aTouch.tapCount == 2) {
-        [NSObject cancelPreviousPerformRequestsWithTarget:gridView];
-    }
-
-}
-
-- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    SEL singleTapSelector = @selector(cellWasSelected:);
-    
-    if (gridView && [gridView respondsToSelector:singleTapSelector]) {
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-        [gridView performSelector:singleTapSelector withObject:self];
-#pragma clang diagnostic pop
-    }
-}
+//- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+//    UITouch *aTouch = [touches anyObject];
+//    if (aTouch.tapCount == 2) {
+//        [NSObject cancelPreviousPerformRequestsWithTarget:gridView];
+//    }
+//
+//}
+//
+//- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+//{
+//    SEL singleTapSelector = @selector(cellWasSelected:);
+//    
+//    if (gridView && [gridView respondsToSelector:singleTapSelector]) {
+//#pragma clang diagnostic push
+//#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+//        [gridView performSelector:singleTapSelector withObject:self];
+//#pragma clang diagnostic pop
+//    }
+//}
 
 @end

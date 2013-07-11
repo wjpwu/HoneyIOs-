@@ -6,14 +6,17 @@
 //  Copyright (c) 2013年 aaron. All rights reserved.
 //
 
+
+
 #import <UIKit/UIKit.h>
-#import "MenuNavigate.h"
+#import "PTNavigate.h"
+#import "PTSession.h"
 
 @interface PTAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 @property (strong, nonatomic) UITabBarController *tabBarController;
-@property (strong, nonatomic) MenuNavigate *menuNavigate;
+@property (strong, nonatomic) PTNavigate *menuNavigate;
+@property (strong, nonatomic) PTSession *ptHttp;
 
 @end

@@ -7,35 +7,34 @@
 //
 
 #import "PTGridMenuUI.h"
+#import "PTGridViewVitCell.h"
 
 @interface PTGridMenuUI ()
 
 @end
 
 @implementation PTGridMenuUI
+@synthesize menuTitles,menuIcons;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+
+- (void)viewWillAppear:(BOOL)animated
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+    [super viewWillAppear:animated];
 }
 
-- (void)viewDidLoad
+- (NSInteger)numberOfCellsInGridView:(MMGridView *)gridView
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return [menuTitles count];
 }
 
 
+- (MMGridViewCell *)gridView:(MMGridView *)gridView cellAtIndex:(NSUInteger)index
+{
+    PTGridViewVitCell *cell = [[PTGridViewVitCell alloc] initWithFrame:CGRectNull];
+    cell.textLabel.text = [menuTitles objectAtIndex:index];
+    cell.iconImgName = [menuIcons objectAtIndex:index];
+    return cell;
+}
 
 
 @end

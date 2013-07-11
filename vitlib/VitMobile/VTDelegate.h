@@ -16,8 +16,10 @@
 
 // protocal for select/click menu item
 @protocol VTSelectMenuDelegate <NSObject>
+@optional
 -   (void) controller:(UIViewController*)viewController didSelectMenuAtIndex:(NSUInteger)index;
 -   (void) controller:(UIViewController*)viewController didSelectMenuWithId:(NSString*) menuId;
+-   (void) controller:(UIViewController*)viewController didLongPressWithMenuId:(NSString*)menuId;
 @end
 
 

@@ -8,7 +8,7 @@
 
 #import "PTFirstViewController.h"
 #import "CXMLDocument.h"
-#import "PTMenuConfig.h"
+#import "PTMenus.h"
 
 @interface PTFirstViewController ()
 
@@ -33,7 +33,7 @@
     NSString *xmlPath = [[NSBundle mainBundle] pathForResource:@"CommonMenu" ofType:@"xml"];
     NSData *fileData = [NSData dataWithContentsOfFile:xmlPath];
     CXMLDocument *xml = [[CXMLDocument alloc] initWithData:fileData options:0 error:&error];
-    [[PTMenuConfig shareMenuInstance] menuInfoWithId:@""];
+    [[PTMenus shareMenuInstance] menuInfoWithId:@""];
     
 //    NSLog(@"xml %@",xml);
 //    [[[MenuItem alloc] init] parseRoot:xml];

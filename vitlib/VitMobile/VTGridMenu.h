@@ -24,8 +24,11 @@
 @property (nonatomic, retain) NSArray *menuIcons;
 @property (nonatomic, retain) NSArray *menuIds;
 
+-(id)initWithLongPressSupport;
+
 
 #pragma mark - To be implemented in subclasses
 - (void)gridView:(MMGridView *)gridView didSelectCell:(MMGridViewCell *)cell atIndex:(NSUInteger)index;
+- (void)gridView:(MMGridView *)gridView didLongPressCell:(MMGridViewCell *)cell atIndex:(NSUInteger)index;
 
 @end

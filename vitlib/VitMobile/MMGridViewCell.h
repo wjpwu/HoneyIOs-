@@ -23,7 +23,7 @@
 
 @class MMGridView;
 
-@interface MMGridViewCell : UIView 
+@interface MMGridViewCell : UIButton 
 {
     MMGridView *gridView;
     NSInteger index;
@@ -31,5 +31,7 @@
 
 @property (nonatomic, readonly) MMGridView *gridView;
 @property (nonatomic, readonly) NSInteger index;
+@property BOOL isRemovable;
+@property BOOL isInEditingMode;
 
 @end

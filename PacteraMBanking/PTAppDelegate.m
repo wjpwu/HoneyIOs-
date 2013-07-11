@@ -7,16 +7,29 @@
 //
 
 #import "PTAppDelegate.h"
-#import "MenuNavigate.h"
+#import "PTNavigate.h"
 #import "PTFirstViewController.h"
 
 #import "PTSecondViewController.h"
 
+
+@interface PTAppDelegate ()
+
+@end
+
 @implementation PTAppDelegate
-@synthesize menuNavigate;
+@synthesize menuNavigate,ptHttp;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    
+    
+//    [Parse setApplicationId:@"APnziA7TUwPaBHquOdEJSUpFwHO3d41JevggtBOJ"
+//                  clientKey:@"be2FtYtRqaEhPAjUUQbF2NyQyCNJOgRcDLuRZYyu"];
+//    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
 //    UIViewController *viewController1, *viewController2;
@@ -30,9 +43,9 @@
 //    self.tabBarController = [[UITabBarController alloc] init];
 //    self.tabBarController.viewControllers = @[viewController1, viewController2];
     
-    menuNavigate = [[MenuNavigate alloc] init];
-    [menuNavigate setupTabs];
-    self.window.rootViewController = menuNavigate.tabBarController;
+    ptHttp = [PTSession shareInstance];
+    menuNavigate = [PTNavigate shareInstance];
+    self.window.rootViewController = menuNavigate.rootViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

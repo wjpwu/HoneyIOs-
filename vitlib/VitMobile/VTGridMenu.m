@@ -10,6 +10,9 @@
 #import "MMGridViewVitCell.h"
 
 @interface VTGridMenu ()
+{
+    BOOL longPressFlag;
+}
 - (void)reload;
 - (void)setupPageControl;
 @end
@@ -21,6 +24,15 @@
 {
     if(!(self = [super init]))
         return nil;
+    longPressFlag = NO;
+    return self;
+}
+
+-(id)initWithLongPressSupport
+{
+    if(!(self = [super init]))
+        return nil;
+    longPressFlag = YES;
     return self;
 }
 
@@ -30,6 +42,7 @@
     gridView = [[MMGridView alloc] initWithFrame:self.view.bounds];
     gridView.delegate = self;
     gridView.dataSource = self;
+    gridView.longPressSupport = longPressFlag;
     [self.view addSubview:gridView];
 }
 
@@ -77,7 +90,7 @@
 {
     MMGridViewVitCell *cell = [[MMGridViewVitCell alloc] initWithFrame:CGRectNull];
     cell.textLabel.text = [menuTitles objectAtIndex:index];
-    cell.iconImage.image = [UIImage imageNamed: [menuIcons objectAtIndex:index]];
+    cell.iconImgName = [menuIcons objectAtIndex:index];
     return cell;
 }
 
@@ -98,12 +111,14 @@
     }
 }
 
-
-- (void)gridView:(MMGridView *)gridView didDoubleTapCell:(MMGridViewCell *)cell atIndex:(NSUInteger)index
+- (void)gridView:(MMGridView *)gridView didLongPressCell:(MMGridViewCell *)cell atIndex:(NSUInteger)index
 {
-    
+    if (menuDelegate && [menuDelegate respondsToSelector:@selector(controller:didLongPressWithMenuId:)]) {
+        if ([menuIds count] >= index) {
+            [menuDelegate controller:self didLongPressWithMenuId:[menuIds objectAtIndex:index]];
+        }
+    }
 }
-
 
 - (void)gridView:(MMGridView *)theGridView changedPageToIndex:(NSUInteger)index
 {

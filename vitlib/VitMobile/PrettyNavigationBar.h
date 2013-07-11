@@ -46,7 +46,9 @@
 
  */
 @interface PrettyNavigationBar : UINavigationBar
-
+{
+    CGFloat backButtonCapWidth;
+}
 
 /** Specifies the navigation bar shadow's opacity.
  
@@ -82,5 +84,8 @@
  
  By default it is 0.0 which means there is no rounded corners. */
 @property (readwrite) CGFloat roundedCornerRadius;
+
+-(UIButton*) backButtonWith:(UIImage*)backButtonImage highlight:(UIImage*)backButtonHighlightImage leftCapWidth:(CGFloat)capWidth;
+-(void) setText:(NSString*)text onBackButton:(UIButton*)backButton;
 
 @end

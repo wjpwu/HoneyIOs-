@@ -45,6 +45,7 @@ typedef enum {
 @protocol MMGridViewDelegate<NSObject>
 @optional
 - (void)gridView:(MMGridView *)gridView didSelectCell:(MMGridViewCell *)cell atIndex:(NSUInteger)index;
+- (void)gridView:(MMGridView *)gridView didLongPressCell:(MMGridViewCell *)cell atIndex:(NSUInteger)index;
 - (void)gridView:(MMGridView *)gridView changedPageToIndex:(NSUInteger)index;
 @end
 
@@ -62,6 +63,7 @@ typedef enum {
     NSUInteger numberOfColumns;
     NSUInteger viewMargin_X;
     GridLayoutStyle layoutStyle;
+    BOOL longPressSupport;
 }
 
 @property (nonatomic, readonly) UIScrollView *scrollView;
@@ -74,6 +76,7 @@ typedef enum {
 @property (nonatomic, readonly) NSUInteger numberOfPages;
 @property (nonatomic, readonly) NSUInteger numberOfTatalRows;
 @property (nonatomic) GridLayoutStyle layoutStyle;
+@property (nonatomic) BOOL longPressSupport;
 
 - (void)reloadData;
 
